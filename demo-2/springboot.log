@@ -32,3 +32,540 @@
 2018-02-04 23:26:51.813  INFO 14400 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e17c06e: startup date [Sun Feb 04 23:25:33 CST 2018]; root of context hierarchy
 2018-02-04 23:26:51.815  INFO 14400 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
 2018-02-04 23:26:51.816  INFO 14400 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:50:04.445  INFO 17448 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 17448 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 21:50:04.446  INFO 17448 --- [restartedMain] com.example.run.Demo2Application         : No active profile set, falling back to default profiles: default
+2018-02-05 21:50:04.685  INFO 17448 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15cd528b: startup date [Mon Feb 05 21:50:04 CST 2018]; root of context hierarchy
+2018-02-05 21:50:05.376  INFO 17448 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:50:05.764  INFO 17448 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4cbca677] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:50:06.145  INFO 17448 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:50:06.152  INFO 17448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:50:06.153  INFO 17448 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:50:06.240  INFO 17448 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:50:06.240  INFO 17448 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1559 ms
+2018-02-05 21:50:06.387  INFO 17448 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:50:06.391  INFO 17448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:50:06.391  INFO 17448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:50:06.391  INFO 17448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:50:06.391  INFO 17448 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:50:07.035  INFO 17448 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15cd528b: startup date [Mon Feb 05 21:50:04 CST 2018]; root of context hierarchy
+2018-02-05 21:50:07.086  INFO 17448 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-05 21:50:07.087  INFO 17448 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-05 21:50:07.091  INFO 17448 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 21:50:07.091  INFO 17448 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 21:50:07.126  INFO 17448 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:50:07.127  INFO 17448 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:50:07.171  INFO 17448 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:50:07.209  WARN 17448 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:50:07.891  INFO 17448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:50:08.074  INFO 17448 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:50:08.076  INFO 17448 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:50:08.081  INFO 17448 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:50:08.155  INFO 17448 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:50:08.161  INFO 17448 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 4.08 seconds (JVM running for 5.238)
+2018-02-05 21:50:18.804  INFO 17448 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-05 21:50:18.805  INFO 17448 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15cd528b: startup date [Mon Feb 05 21:50:04 CST 2018]; root of context hierarchy
+2018-02-05 21:50:18.809  INFO 17448 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:50:18.810  INFO 17448 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:53:40.457  INFO 6164 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6164 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 21:53:40.458  INFO 6164 --- [restartedMain] com.example.run.Demo2Application         : No active profile set, falling back to default profiles: default
+2018-02-05 21:53:40.623  INFO 6164 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4fd27542: startup date [Mon Feb 05 21:53:40 CST 2018]; root of context hierarchy
+2018-02-05 21:53:41.269  INFO 6164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:53:41.628  INFO 6164 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c99652df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:53:41.963  INFO 6164 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:53:41.972  INFO 6164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:53:41.973  INFO 6164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:53:42.050  INFO 6164 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:53:42.050  INFO 6164 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1430 ms
+2018-02-05 21:53:42.190  INFO 6164 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:53:42.194  INFO 6164 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:53:42.194  INFO 6164 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:53:42.195  INFO 6164 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:53:42.195  INFO 6164 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:53:42.800  INFO 6164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4fd27542: startup date [Mon Feb 05 21:53:40 CST 2018]; root of context hierarchy
+2018-02-05 21:53:42.848  INFO 6164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-05 21:53:42.848  INFO 6164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-05 21:53:42.852  INFO 6164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 21:53:42.853  INFO 6164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 21:53:42.891  INFO 6164 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:53:42.891  INFO 6164 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:53:42.937  INFO 6164 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:53:42.970  WARN 6164 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:53:43.637  INFO 6164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:53:43.816  INFO 6164 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:53:43.817  INFO 6164 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:53:43.823  INFO 6164 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:53:43.896  INFO 6164 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:53:43.904  INFO 6164 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 3.778 seconds (JVM running for 4.637)
+2018-02-05 21:53:53.960  INFO 6164 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 21:53:53.961  INFO 6164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-05 21:53:53.982  INFO 6164 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-02-05 21:53:54.089  INFO 6164 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-02-05 21:53:54.267  INFO 6164 --- [http-nio-8080-exec-2] c.example.service.Impl.CityServiceImpl   : 城市名Kabul
+2018-02-05 21:54:01.909  INFO 6164 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-05 21:54:01.909  INFO 6164 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4fd27542: startup date [Mon Feb 05 21:53:40 CST 2018]; root of context hierarchy
+2018-02-05 21:54:01.913  INFO 6164 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:54:01.913  INFO 6164 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:54:01.917  INFO 6164 --- [RMI TCP Connection(2)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-02-05 21:55:01.975  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62bad2cb: startup date [Mon Feb 05 21:55:01 CST 2018]; root of context hierarchy
+2018-02-05 21:55:02.649  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:55:03.039  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:55:03.471  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:55:03.481  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:55:03.482  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:55:03.564  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:55:03.716  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:55:03.721  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:55:03.721  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:55:03.721  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:55:03.722  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:55:04.522  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:55:05.234  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:55:05.427  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:55:05.429  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:55:05.436  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:55:05.504  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:55:16.513  INFO 6020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 21:55:16.639  INFO 6020 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-02-05 21:56:08.869  INFO 6020 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62bad2cb: startup date [Mon Feb 05 21:55:01 CST 2018]; root of context hierarchy
+2018-02-05 21:56:08.878  INFO 6020 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:56:08.879  INFO 6020 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:56:08.884  INFO 6020 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-02-05 21:56:09.361  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f7084ac: startup date [Mon Feb 05 21:56:09 CST 2018]; root of context hierarchy
+2018-02-05 21:56:09.857  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:56:10.005  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:56:10.075  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:56:10.075  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:56:10.076  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:56:10.092  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:56:10.133  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:56:10.133  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:56:10.133  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:56:10.133  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:56:10.134  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:56:10.347  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:56:10.440  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:56:10.617  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:56:10.618  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:56:10.622  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:56:10.632  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:56:17.936  INFO 6020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 21:56:17.948  INFO 6020 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-02-05 21:56:44.945  INFO 6020 --- [Thread-10] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f7084ac: startup date [Mon Feb 05 21:56:09 CST 2018]; root of context hierarchy
+2018-02-05 21:56:44.951  INFO 6020 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:56:44.951  INFO 6020 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:56:44.953  INFO 6020 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-02-05 21:56:45.444  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b6ef171: startup date [Mon Feb 05 21:56:45 CST 2018]; root of context hierarchy
+2018-02-05 21:56:45.750  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:56:45.809  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:56:45.868  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:56:45.869  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:56:45.869  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:56:45.888  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:56:45.924  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:56:45.925  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:56:45.925  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:56:45.925  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:56:45.925  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:56:46.133  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:56:46.236  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:56:46.415  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:56:46.416  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:56:46.419  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:56:46.431  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:56:53.892  INFO 6020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 21:56:53.899  INFO 6020 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-02-05 21:57:21.556  WARN 6020 --- [http-nio-8080-exec-4] c.example.service.Impl.CityServiceImpl   : 警告
+2018-02-05 21:57:21.556 ERROR 6020 --- [http-nio-8080-exec-4] c.example.service.Impl.CityServiceImpl   : 错误
+2018-02-05 21:57:46.875  INFO 6020 --- [Thread-16] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b6ef171: startup date [Mon Feb 05 21:56:45 CST 2018]; root of context hierarchy
+2018-02-05 21:57:46.882  INFO 6020 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:57:46.882  INFO 6020 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:57:46.884  INFO 6020 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2018-02-05 21:57:47.332  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@572e2e26: startup date [Mon Feb 05 21:57:47 CST 2018]; root of context hierarchy
+2018-02-05 21:57:47.649  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:57:47.714  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:57:47.779  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:57:47.780  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:57:47.780  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:57:47.802  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:57:47.840  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:57:47.841  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:57:47.841  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:57:47.841  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:57:47.841  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:57:48.053  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:57:48.144  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:57:48.327  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:57:48.327  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:57:48.330  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:57:48.354  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:57:53.147  INFO 6020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 21:57:53.155  INFO 6020 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2018-02-05 21:57:53.167  WARN 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 警告
+2018-02-05 21:57:53.168 ERROR 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 错误
+2018-02-05 21:58:02.775  WARN 6020 --- [http-nio-8080-exec-3] c.example.service.Impl.CityServiceImpl   : 警告
+2018-02-05 21:58:02.775 ERROR 6020 --- [http-nio-8080-exec-3] c.example.service.Impl.CityServiceImpl   : 错误
+2018-02-05 21:59:07.803  INFO 6020 --- [Thread-22] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@572e2e26: startup date [Mon Feb 05 21:57:47 CST 2018]; root of context hierarchy
+2018-02-05 21:59:07.807  INFO 6020 --- [Thread-22] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:59:07.808  INFO 6020 --- [Thread-22] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:59:07.809  INFO 6020 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2018-02-05 21:59:08.236  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 21:59:08.236 DEBUG 6020 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-05 21:59:08.236  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-05 21:59:08.238  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@35cddb53: startup date [Mon Feb 05 21:59:08 CST 2018]; root of context hierarchy
+2018-02-05 21:59:08.545  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:59:08.599  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:59:08.655  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:59:08.656  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:59:08.656  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:59:08.676  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:59:08.712  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:59:08.713  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:59:08.713  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:59:08.713  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:59:08.713  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:59:08.910  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:59:08.986  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:59:09.158  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:59:09.158  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:59:09.161  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:59:09.173  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:59:09.176  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.0 seconds (JVM running for 248.405)
+2018-02-05 21:59:31.478  INFO 6020 --- [Thread-28] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@35cddb53: startup date [Mon Feb 05 21:59:08 CST 2018]; root of context hierarchy
+2018-02-05 21:59:31.483  INFO 6020 --- [Thread-28] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:59:31.484  INFO 6020 --- [Thread-28] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:59:31.834  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 21:59:31.834 DEBUG 6020 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-05 21:59:31.834  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-05 21:59:31.838  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c267af4: startup date [Mon Feb 05 21:59:31 CST 2018]; root of context hierarchy
+2018-02-05 21:59:32.135  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:59:32.188  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:59:32.249  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:59:32.249  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:59:32.250  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:59:32.267  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:59:32.310  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:59:32.311  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:59:32.311  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:59:32.311  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:59:32.311  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:59:32.491  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:59:32.584  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:59:32.753  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:59:32.753  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:59:32.756  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:59:32.770  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:59:32.775  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 0.983 seconds (JVM running for 272.003)
+2018-02-05 21:59:41.023  INFO 6020 --- [Thread-34] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c267af4: startup date [Mon Feb 05 21:59:31 CST 2018]; root of context hierarchy
+2018-02-05 21:59:41.033  INFO 6020 --- [Thread-34] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 21:59:41.034  INFO 6020 --- [Thread-34] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 21:59:41.437  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 21:59:41.437 DEBUG 6020 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-05 21:59:41.437  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-05 21:59:41.439  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59871e46: startup date [Mon Feb 05 21:59:41 CST 2018]; root of context hierarchy
+2018-02-05 21:59:41.724  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 21:59:41.773  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 21:59:41.829  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 21:59:41.829  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 21:59:41.829  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 21:59:41.847  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 21:59:41.848  INFO 6020 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 409 ms
+2018-02-05 21:59:41.882  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 21:59:41.882  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 21:59:41.882  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 21:59:41.883  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 21:59:41.883  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 21:59:42.022  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59871e46: startup date [Mon Feb 05 21:59:41 CST 2018]; root of context hierarchy
+2018-02-05 21:59:42.032  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-05 21:59:42.033  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-05 21:59:42.034  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 21:59:42.035  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 21:59:42.045  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:59:42.045  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:59:42.060  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 21:59:42.072  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 21:59:42.152  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 21:59:42.321  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 21:59:42.322  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 21:59:42.325  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 21:59:42.340  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 21:59:42.342  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 0.946 seconds (JVM running for 281.57)
+2018-02-05 22:00:09.827  INFO 6020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 22:00:09.828  INFO 6020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-05 22:00:09.830  INFO 6020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018-02-05 22:00:09.832  INFO 6020 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2018-02-05 22:00:09.847 DEBUG 6020 --- [http-nio-8080-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : ==>  Preparing: SELECT count(0) FROM city 
+2018-02-05 22:00:09.854 DEBUG 6020 --- [http-nio-8080-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : ==> Parameters: 
+2018-02-05 22:00:09.862 DEBUG 6020 --- [http-nio-8080-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : <==      Total: 1
+2018-02-05 22:00:09.862 DEBUG 6020 --- [http-nio-8080-exec-1] com.example.mapper.CityMapper.getCitys   : ==>  Preparing: select id,Name,CountryCode,District,Population from city LIMIT 3 
+2018-02-05 22:00:09.863 DEBUG 6020 --- [http-nio-8080-exec-1] com.example.mapper.CityMapper.getCitys   : ==> Parameters: 
+2018-02-05 22:00:09.864 DEBUG 6020 --- [http-nio-8080-exec-1] com.example.mapper.CityMapper.getCitys   : <==      Total: 3
+2018-02-05 22:00:09.864  INFO 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 容量3
+2018-02-05 22:00:09.865  INFO 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 信息
+2018-02-05 22:00:09.865  WARN 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 警告
+2018-02-05 22:00:09.865 ERROR 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 错误
+2018-02-05 22:00:33.725  INFO 6020 --- [Thread-40] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59871e46: startup date [Mon Feb 05 21:59:41 CST 2018]; root of context hierarchy
+2018-02-05 22:00:33.730  INFO 6020 --- [Thread-40] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:00:33.733  INFO 6020 --- [Thread-40] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:00:33.736  INFO 6020 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed
+2018-02-05 22:00:34.163  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:00:34.164 DEBUG 6020 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-05 22:00:34.164  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: pro
+2018-02-05 22:00:34.166  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@518c6a6f: startup date [Mon Feb 05 22:00:34 CST 2018]; root of context hierarchy
+2018-02-05 22:00:34.496  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:00:34.548  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:00:34.603  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 22:00:34.603  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:00:34.603  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:00:34.621  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:00:34.656  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:00:34.656  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:00:34.656  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:00:34.657  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:00:34.657  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:00:34.844  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 22:00:34.924  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:00:35.094  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:00:35.094  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:00:35.097  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:00:35.107  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 22:00:35.109  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 0.987 seconds (JVM running for 334.338)
+2018-02-05 22:00:42.809  INFO 6020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 22:00:42.816  INFO 6020 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2018-02-05 22:00:42.824 DEBUG 6020 --- [http-nio-8080-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : ==>  Preparing: SELECT count(0) FROM city 
+2018-02-05 22:00:42.825 DEBUG 6020 --- [http-nio-8080-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : ==> Parameters: 
+2018-02-05 22:00:42.831 DEBUG 6020 --- [http-nio-8080-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : <==      Total: 1
+2018-02-05 22:00:42.832 DEBUG 6020 --- [http-nio-8080-exec-1] com.example.mapper.CityMapper.getCitys   : ==>  Preparing: select id,Name,CountryCode,District,Population from city LIMIT 3 
+2018-02-05 22:00:42.832 DEBUG 6020 --- [http-nio-8080-exec-1] com.example.mapper.CityMapper.getCitys   : ==> Parameters: 
+2018-02-05 22:00:42.834 DEBUG 6020 --- [http-nio-8080-exec-1] com.example.mapper.CityMapper.getCitys   : <==      Total: 3
+2018-02-05 22:00:42.835  INFO 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 容量3
+2018-02-05 22:00:42.835  INFO 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 信息
+2018-02-05 22:00:42.835  WARN 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 警告
+2018-02-05 22:00:42.835 ERROR 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 错误
+2018-02-05 22:01:00.397  INFO 6020 --- [Thread-46] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@518c6a6f: startup date [Mon Feb 05 22:00:34 CST 2018]; root of context hierarchy
+2018-02-05 22:01:00.401  INFO 6020 --- [Thread-46] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:01:00.402  INFO 6020 --- [Thread-46] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:01:00.404  INFO 6020 --- [Thread-46] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2018-02-05 22:01:00.832  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:01:00.832  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: pro
+2018-02-05 22:01:00.834  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39ed8c31: startup date [Mon Feb 05 22:01:00 CST 2018]; root of context hierarchy
+2018-02-05 22:01:01.135  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:01:01.192  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:01:01.250  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 22:01:01.250  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:01:01.250  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:01:01.267  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:01:01.301  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:01:01.302  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:01:01.302  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:01:01.302  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:01:01.302  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:01:01.477  WARN 6020 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-05 22:01:01.556  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:01:01.729  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:01:01.730  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:01:01.733  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:01:01.745  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 22:01:01.748  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 0.956 seconds (JVM running for 360.976)
+2018-02-05 22:04:31.403  INFO 6020 --- [Thread-52] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39ed8c31: startup date [Mon Feb 05 22:01:00 CST 2018]; root of context hierarchy
+2018-02-05 22:04:31.406  INFO 6020 --- [Thread-52] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:04:31.406  INFO 6020 --- [Thread-52] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:04:31.804  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:04:31.804  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: pro
+2018-02-05 22:04:31.807  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2332453c: startup date [Mon Feb 05 22:04:31 CST 2018]; root of context hierarchy
+2018-02-05 22:04:32.131  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:04:32.183  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:04:32.243  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 22:04:32.244  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:04:32.244  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:04:32.261  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:04:32.300  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:04:32.301  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:04:32.301  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:04:32.301  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:04:32.301  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:04:32.557  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:04:32.726  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:04:32.727  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:04:32.730  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:04:32.748  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 22:04:32.750  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 0.989 seconds (JVM running for 571.979)
+2018-02-05 22:04:43.998  INFO 6020 --- [Thread-58] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2332453c: startup date [Mon Feb 05 22:04:31 CST 2018]; root of context hierarchy
+2018-02-05 22:04:44.001  INFO 6020 --- [Thread-58] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:04:44.001  INFO 6020 --- [Thread-58] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:04:44.472  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:04:44.472  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: pro
+2018-02-05 22:04:44.474  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c2c0924: startup date [Mon Feb 05 22:04:44 CST 2018]; root of context hierarchy
+2018-02-05 22:04:44.880  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:04:44.942  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:04:45.016  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 22:04:45.016  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:04:45.016  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:04:45.032  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:04:45.065  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:04:45.066  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:04:45.066  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:04:45.066  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:04:45.066  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:04:45.329  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:04:45.495  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:04:45.495  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:04:45.498  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:04:45.508  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 22:04:45.511  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.086 seconds (JVM running for 584.739)
+2018-02-05 22:05:07.823  INFO 6020 --- [Thread-64] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c2c0924: startup date [Mon Feb 05 22:04:44 CST 2018]; root of context hierarchy
+2018-02-05 22:05:07.828  INFO 6020 --- [Thread-64] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:05:07.828  INFO 6020 --- [Thread-64] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:05:08.230  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:05:08.230  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: pro
+2018-02-05 22:05:08.233  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33127a8c: startup date [Mon Feb 05 22:05:08 CST 2018]; root of context hierarchy
+2018-02-05 22:05:08.573  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:05:08.631  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:05:08.701  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 22:05:08.701  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:05:08.702  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:05:08.726  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:05:08.763  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:05:08.763  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:05:08.764  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:05:08.764  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:05:08.764  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:05:09.020  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:05:09.188  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:05:09.189  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:05:09.191  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:05:09.206  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 22:05:09.210  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.043 seconds (JVM running for 608.439)
+2018-02-05 22:06:15.691  INFO 6020 --- [Thread-70] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33127a8c: startup date [Mon Feb 05 22:05:08 CST 2018]; root of context hierarchy
+2018-02-05 22:06:15.697  INFO 6020 --- [Thread-70] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:06:15.697  INFO 6020 --- [Thread-70] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:06:16.092  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:06:16.092  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: pro
+2018-02-05 22:06:16.094  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69b092d6: startup date [Mon Feb 05 22:06:16 CST 2018]; root of context hierarchy
+2018-02-05 22:06:16.409  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:06:16.464  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:06:16.518  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 22:06:16.519  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:06:16.519  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:06:16.537  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:06:16.572  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:06:16.572  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:06:16.572  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:06:16.572  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:06:16.572  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:06:16.843  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:06:17.018  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:06:17.018  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:06:17.021  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:06:17.039  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 22:06:17.042  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 0.996 seconds (JVM running for 676.271)
+2018-02-05 22:06:41.346  INFO 6020 --- [Thread-76] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69b092d6: startup date [Mon Feb 05 22:06:16 CST 2018]; root of context hierarchy
+2018-02-05 22:06:41.348  INFO 6020 --- [Thread-76] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:06:41.349  INFO 6020 --- [Thread-76] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:06:41.759  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:06:41.759  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: pro
+2018-02-05 22:06:41.762  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fa7497a: startup date [Mon Feb 05 22:06:41 CST 2018]; root of context hierarchy
+2018-02-05 22:06:42.058  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:06:42.116  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:06:42.178  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-05 22:06:42.179  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:06:42.179  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:06:42.197  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:06:42.230  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:06:42.230  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:06:42.230  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:06:42.230  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:06:42.230  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:06:42.556  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:06:42.737  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:06:42.738  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:06:42.741  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:06:42.752  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-05 22:06:42.756  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.041 seconds (JVM running for 701.984)
+2018-02-05 22:06:56.530  INFO 6020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 22:06:56.537  INFO 6020 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2018-02-05 22:06:56.549  INFO 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 容量3
+2018-02-05 22:06:56.549  INFO 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 信息
+2018-02-05 22:06:56.549  WARN 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 警告
+2018-02-05 22:06:56.549 ERROR 6020 --- [http-nio-8080-exec-1] c.example.service.Impl.CityServiceImpl   : 错误
+2018-02-05 22:07:45.182  INFO 6020 --- [Thread-82] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fa7497a: startup date [Mon Feb 05 22:06:41 CST 2018]; root of context hierarchy
+2018-02-05 22:07:45.186  INFO 6020 --- [Thread-82] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:07:45.186  INFO 6020 --- [Thread-82] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:07:45.190  INFO 6020 --- [Thread-82] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closed
+2018-02-05 22:07:45.597  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:07:45.598 DEBUG 6020 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-05 22:07:45.598  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-05 22:07:45.600  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@717dba57: startup date [Mon Feb 05 22:07:45 CST 2018]; root of context hierarchy
+2018-02-05 22:07:45.928  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:07:45.982  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:07:46.037  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-05 22:07:46.038  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:07:46.038  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:07:46.057  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:07:46.058  INFO 6020 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 458 ms
+2018-02-05 22:07:46.096  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:07:46.097  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:07:46.097  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:07:46.097  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:07:46.097  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:07:46.248  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@717dba57: startup date [Mon Feb 05 22:07:45 CST 2018]; root of context hierarchy
+2018-02-05 22:07:46.257  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-05 22:07:46.257  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-05 22:07:46.259  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 22:07:46.259  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 22:07:46.270  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 22:07:46.270  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 22:07:46.286  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 22:07:46.379  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:07:46.557  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:07:46.559  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:07:46.562  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:07:46.580  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-05 22:07:46.585  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.028 seconds (JVM running for 765.814)
+2018-02-05 22:07:56.016  INFO 6020 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 22:07:56.017  INFO 6020 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-05 22:07:56.021  INFO 6020 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2018-02-05 22:07:56.025  INFO 6020 --- [http-nio-7070-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} inited
+2018-02-05 22:07:56.035 DEBUG 6020 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : ==>  Preparing: SELECT count(0) FROM city 
+2018-02-05 22:07:56.035 DEBUG 6020 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : ==> Parameters: 
+2018-02-05 22:07:56.037 DEBUG 6020 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCitys_COUNT     : <==      Total: 1
+2018-02-05 22:07:56.038 DEBUG 6020 --- [http-nio-7070-exec-1] com.example.mapper.CityMapper.getCitys   : ==>  Preparing: select id,Name,CountryCode,District,Population from city LIMIT 3 
+2018-02-05 22:07:56.038 DEBUG 6020 --- [http-nio-7070-exec-1] com.example.mapper.CityMapper.getCitys   : ==> Parameters: 
+2018-02-05 22:07:56.040 DEBUG 6020 --- [http-nio-7070-exec-1] com.example.mapper.CityMapper.getCitys   : <==      Total: 3
+2018-02-05 22:07:56.042  INFO 6020 --- [http-nio-7070-exec-1] c.example.service.Impl.CityServiceImpl   : 容量3
+2018-02-05 22:07:56.042  INFO 6020 --- [http-nio-7070-exec-1] c.example.service.Impl.CityServiceImpl   : 信息
+2018-02-05 22:07:56.042  WARN 6020 --- [http-nio-7070-exec-1] c.example.service.Impl.CityServiceImpl   : 警告
+2018-02-05 22:07:56.042 ERROR 6020 --- [http-nio-7070-exec-1] c.example.service.Impl.CityServiceImpl   : 错误
+2018-02-05 22:09:01.070  INFO 6020 --- [Thread-88] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@717dba57: startup date [Mon Feb 05 22:07:45 CST 2018]; root of context hierarchy
+2018-02-05 22:09:01.076  INFO 6020 --- [Thread-88] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-05 22:09:01.077  INFO 6020 --- [Thread-88] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-05 22:09:01.079  INFO 6020 --- [Thread-88] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closed
+2018-02-05 22:09:01.503  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 6020 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-05 22:09:01.503 DEBUG 6020 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-05 22:09:01.503  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-05 22:09:01.506  INFO 6020 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6da267b4: startup date [Mon Feb 05 22:09:01 CST 2018]; root of context hierarchy
+2018-02-05 22:09:01.830  INFO 6020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-05 22:09:01.895  INFO 6020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412265b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-05 22:09:01.959  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-05 22:09:01.959  INFO 6020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-05 22:09:01.959  INFO 6020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 22:09:01.980  INFO 6020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-05 22:09:01.981  INFO 6020 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 475 ms
+2018-02-05 22:09:02.015  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 22:09:02.015  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 22:09:02.015  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 22:09:02.015  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 22:09:02.015  INFO 6020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 22:09:02.163  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6da267b4: startup date [Mon Feb 05 22:09:01 CST 2018]; root of context hierarchy
+2018-02-05 22:09:02.174  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-05 22:09:02.174  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-05 22:09:02.175  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 22:09:02.175  INFO 6020 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 22:09:02.184  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 22:09:02.184  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 22:09:02.199  INFO 6020 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 22:09:02.301  INFO 6020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-05 22:09:02.469  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-05 22:09:02.470  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-05 22:09:02.473  INFO 6020 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-05 22:09:02.486  INFO 6020 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-05 22:09:02.488  INFO 6020 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.036 seconds (JVM running for 841.717)
