@@ -12,9 +12,9 @@ import org.quartz.JobExecutionException;
 
 /**
  * @author meikai
- *
+ * quartz job
  */
-public class ScheduledJob implements Job{
+public class DemoJob implements Job{
 
     private SimpleDateFormat dateFormat() {
         return new SimpleDateFormat("HH:mm:ss");
