@@ -9,6 +9,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.example.mapper.CityMapper;
 import com.example.model.City;
 import com.example.service.CityService;
@@ -49,6 +51,26 @@ public class CityServiceImpl implements CityService {
 		log.warn("警告");
 		log.error("错误");
 		return citys;
+	}
+
+
+	@Override
+    @Transactional(rollbackFor = {Exception.class,RuntimeException.class})
+	public  String updateName(Integer id,String cityName) throws Exception {
+		
+		
+		City city =cityMapper.getCityById(id);
+		
+		city.setName(cityName);
+		
+		Integer resultCode = cityMapper.updateName(city);
+		
+		if(true) throw new Exception("抛出异常");
+		if(resultCode==1) {
+			return "sucess";
+		}
+		return "faile";
+		
 	}
 
 }

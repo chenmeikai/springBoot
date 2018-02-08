@@ -18,5 +18,7 @@ public interface CityMapper {
 	public City getCityById(@Param("id") Integer id);
 	
 	public List<City>  getCitys();
+	
+	public Integer updateName(City city);
 
 }

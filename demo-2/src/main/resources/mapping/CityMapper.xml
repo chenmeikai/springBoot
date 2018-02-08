@@ -28,6 +28,11 @@
     id,Name,CountryCode,District,Population
     from city
   </select>
+  
+  <update id="updateName" parameterType="com.example.model.City">
+    UPDATE city SET Name=#{name,jdbcType=VARCHAR}
+    WHERE id =#{id,jdbcType=INTEGER}
+  </update>
 
   
 
