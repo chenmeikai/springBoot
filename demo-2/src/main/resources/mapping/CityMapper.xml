@@ -23,14 +23,29 @@
      </if>
   </select>
   
-  <select id="getCitys"  resultMap="BaseResultMap"   >
+  <select id="getCityByName"  resultMap="BaseResultMap"  parameterType="String" >
     select
     id,Name,CountryCode,District,Population
     from city
+     WHERE 1=1
+     <if test="cityName != null">
+         AND Name=#{cityName,jdbcType=VARCHAR}
+     </if>
+  </select>
+  
+  <select id="getCityLocked"  resultMap="BaseResultMap" parameterType="int"   >
+    select
+    id,Name,CountryCode,District,Population
+    from city where id=#{id,jdbcType=INTEGER} 
   </select>
   
   <update id="updateName" parameterType="com.example.model.City">
     UPDATE city SET Name=#{name,jdbcType=VARCHAR}
+    WHERE id =#{id,jdbcType=INTEGER}
+  </update>
+  
+  <update id="updateDistrict" parameterType="com.example.model.City">
+    UPDATE city SET District=#{district,jdbcType=VARCHAR}
     WHERE id =#{id,jdbcType=INTEGER}
   </update>
 

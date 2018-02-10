@@ -6,7 +6,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>demo-2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>demo-2</name>
 	<description>Demo project for Spring Boot</description>
@@ -84,11 +84,12 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<!-- tomcat -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
-		</dependency>
+			</dependency>
 		<!-- pagehelper -->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
@@ -115,11 +116,24 @@
 	</dependencies>
 
 	<build>
+		<finalName>springBoot</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<fork>true</fork>
+				</configuration>
 			</plugin>
+			<!-- 跳过单元测试 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+				<skip>true</skip>
+				</configuration>
+			</plugin>
+			
 		</plugins>
 	</build>
 

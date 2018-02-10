@@ -8660,3 +8660,1294 @@ java.lang.Exception: 抛出异常
 2018-02-10 16:29:32.843  INFO 2608 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
 2018-02-10 16:29:32.843  INFO 2608 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
 2018-02-10 16:29:32.843  INFO 2608 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 19:37:31.046  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 9784 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 19:37:31.047 DEBUG 9784 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 19:37:31.047  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 19:37:31.223  INFO 9784 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29154e88: startup date [Sat Feb 10 19:37:31 CST 2018]; root of context hierarchy
+2018-02-10 19:37:32.037  INFO 9784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 19:37:32.423  INFO 9784 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c61811e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 19:37:32.796  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 19:37:32.805  INFO 9784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 19:37:32.806  INFO 9784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 19:37:32.887  INFO 9784 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 19:37:32.887  INFO 9784 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1667 ms
+2018-02-10 19:37:33.122  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 19:37:33.128  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 19:37:33.129  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 19:37:33.129  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 19:37:33.130  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 19:37:33.230  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 19:37:33.271  INFO 9784 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 19:37:33.275  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 19:37:33.278  INFO 9784 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 19:37:33.280  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 19:37:33.280  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 19:37:33.280  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 19:37:33.283  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@722927d8
+2018-02-10 19:37:34.210  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29154e88: startup date [Sat Feb 10 19:37:31 CST 2018]; root of context hierarchy
+2018-02-10 19:37:34.350  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 19:37:34.351  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 19:37:34.351  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 19:37:34.352  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 19:37:34.353  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 19:37:34.353  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:37:34.354  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:37:34.357  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 19:37:34.357  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 19:37:34.392  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:37:34.392  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:37:34.434  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:37:34.473  WARN 9784 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 19:37:35.046  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 19:37:35.252  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 19:37:35.253  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 19:37:35.259  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 19:37:35.264  INFO 9784 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 19:37:35.265  INFO 9784 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 19:37:35.265  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 19:37:35.327  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 19:37:35.349  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 4.587 seconds (JVM running for 5.485)
+2018-02-10 19:37:42.923  INFO 9784 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 19:37:42.924  INFO 9784 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-10 19:37:42.952  INFO 9784 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-02-10 19:37:42.965  INFO 9784 --- [http-nio-7070-exec-1] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:37:43.028  INFO 9784 --- [http-nio-7070-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-02-10 19:37:43.189 DEBUG 9784 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityLocked      : ==>  Preparing: select id,Name,CountryCode,District,Population from city where id=? for update 
+2018-02-10 19:37:43.204 DEBUG 9784 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityLocked      : ==> Parameters: 1(Integer)
+2018-02-10 19:37:43.214 DEBUG 9784 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityLocked      : <==      Total: 1
+2018-02-10 19:37:43.215 DEBUG 9784 --- [http-nio-7070-exec-1] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:37:43.216 DEBUG 9784 --- [http-nio-7070-exec-1] c.example.mapper.CityMapper.updateName   : ==> Parameters: null, 1(Integer)
+2018-02-10 19:37:43.224  INFO 9784 --- [http-nio-7070-exec-1] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-02-10 19:37:43.253  INFO 9784 --- [http-nio-7070-exec-1] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-02-10 19:37:43.262 ERROR 9784 --- [http-nio-7070-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'Name' cannot be null
+### The error may involve com.example.mapper.CityMapper.updateName-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE city SET Name=?     WHERE id =?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'Name' cannot be null
+; SQL []; Column 'Name' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'Name' cannot be null] with root cause
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'Name' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2484)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy90.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy88.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy69.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:294)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy70.updateName(Unknown Source)
+	at com.example.service.Impl.CityServiceImpl.updateNameLocked(CityServiceImpl.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy73.updateNameLocked(Unknown Source)
+	at com.example.controller.TransationController.processLock(TransationController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-02-10 19:37:43.269  INFO 9784 --- [http-nio-7070-exec-1] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:38:49.865  INFO 9784 --- [http-nio-7070-exec-4] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:38:49.899 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:38:49.900 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 1(Integer)
+2018-02-10 19:38:49.901 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:38:49.901 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:38:49.902 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 1(Integer)
+2018-02-10 19:38:49.905 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:39:51.395  INFO 9784 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29154e88: startup date [Sat Feb 10 19:37:31 CST 2018]; root of context hierarchy
+2018-02-10 19:39:51.398  INFO 9784 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 19:39:51.399  INFO 9784 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:39:51.400  INFO 9784 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 19:39:51.402  INFO 9784 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 19:39:51.407  INFO 9784 --- [Thread-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-02-10 19:39:51.408  INFO 9784 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 19:39:51.409  INFO 9784 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 19:39:51.409  INFO 9784 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:39:51.409  INFO 9784 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 19:39:52.472  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 9784 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 19:39:52.473 DEBUG 9784 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 19:39:52.473  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 19:39:52.477  INFO 9784 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@107b0968: startup date [Sat Feb 10 19:39:52 CST 2018]; root of context hierarchy
+2018-02-10 19:39:53.084  INFO 9784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 19:39:53.221  INFO 9784 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c61811e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 19:39:53.340  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 19:39:53.341  INFO 9784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 19:39:53.342  INFO 9784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 19:39:53.374  INFO 9784 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 19:39:53.375  INFO 9784 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 898 ms
+2018-02-10 19:39:53.422  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 19:39:53.424  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 19:39:53.424  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 19:39:53.424  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 19:39:53.424  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 19:39:53.455  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 19:39:53.456  INFO 9784 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 19:39:53.456  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 19:39:53.456  INFO 9784 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 19:39:53.457  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 19:39:53.457  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 19:39:53.457  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 19:39:53.457  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@31b98f90
+2018-02-10 19:39:53.744  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@107b0968: startup date [Sat Feb 10 19:39:52 CST 2018]; root of context hierarchy
+2018-02-10 19:39:53.756  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 19:39:53.756  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 19:39:53.756  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 19:39:53.757  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 19:39:53.757  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 19:39:53.758  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:39:53.759  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:39:53.761  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 19:39:53.761  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 19:39:53.772  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:39:53.772  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:39:53.789  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:39:53.804  WARN 9784 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 19:39:53.919  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 19:39:54.255  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 19:39:54.256  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 19:39:54.263  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 19:39:54.264  INFO 9784 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 19:39:54.264  INFO 9784 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 19:39:54.264  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 19:39:54.290  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 19:39:54.292  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.942 seconds (JVM running for 144.428)
+2018-02-10 19:40:13.228  INFO 9784 --- [http-nio-7070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 19:40:13.229  INFO 9784 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-10 19:40:13.235  INFO 9784 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2018-02-10 19:40:13.237  INFO 9784 --- [http-nio-7070-exec-2] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:40:13.242  INFO 9784 --- [http-nio-7070-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-02-10 19:40:13.256 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:40:13.257 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 1(Integer)
+2018-02-10 19:40:13.259 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:40:13.260 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:40:13.260 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 1(Integer)
+2018-02-10 19:40:13.263 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:40:41.655  INFO 9784 --- [http-nio-7070-exec-3] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:40:41.657 DEBUG 9784 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityLocked      : ==>  Preparing: select id,Name,CountryCode,District,Population from city where id=? for update 
+2018-02-10 19:40:41.657 DEBUG 9784 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityLocked      : ==> Parameters: 1(Integer)
+2018-02-10 19:40:41.658 DEBUG 9784 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityLocked      : <==      Total: 1
+2018-02-10 19:40:41.659 DEBUG 9784 --- [http-nio-7070-exec-3] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:40:41.659 DEBUG 9784 --- [http-nio-7070-exec-3] c.example.mapper.CityMapper.updateName   : ==> Parameters: locked(String), 1(Integer)
+2018-02-10 19:40:41.663 DEBUG 9784 --- [http-nio-7070-exec-3] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:40:45.745  INFO 9784 --- [http-nio-7070-exec-5] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:40:45.754 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:40:45.754 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 1(Integer)
+2018-02-10 19:40:45.758 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:40:45.759 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:40:45.760 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 1(Integer)
+2018-02-10 19:40:51.669 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:41:37.987  INFO 9784 --- [Thread-11] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@107b0968: startup date [Sat Feb 10 19:39:52 CST 2018]; root of context hierarchy
+2018-02-10 19:41:37.992  INFO 9784 --- [Thread-11] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 19:41:37.992  INFO 9784 --- [Thread-11] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:41:37.993  INFO 9784 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 19:41:37.994  INFO 9784 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 19:41:37.996  INFO 9784 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-02-10 19:41:37.999  INFO 9784 --- [Thread-11] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 19:41:37.999  INFO 9784 --- [Thread-11] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 19:41:37.999  INFO 9784 --- [Thread-11] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:41:37.999  INFO 9784 --- [Thread-11] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 19:41:38.602  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 9784 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 19:41:38.603 DEBUG 9784 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 19:41:38.603  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 19:41:38.607  INFO 9784 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69abd2f: startup date [Sat Feb 10 19:41:38 CST 2018]; root of context hierarchy
+2018-02-10 19:41:39.167  INFO 9784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 19:41:39.278  INFO 9784 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c61811e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 19:41:39.375  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 19:41:39.376  INFO 9784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 19:41:39.376  INFO 9784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 19:41:39.398  INFO 9784 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 19:41:39.399  INFO 9784 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 792 ms
+2018-02-10 19:41:39.445  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 19:41:39.445  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 19:41:39.445  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 19:41:39.445  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 19:41:39.445  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 19:41:39.480  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 19:41:39.481  INFO 9784 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 19:41:39.481  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 19:41:39.481  INFO 9784 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 19:41:39.481  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 19:41:39.481  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 19:41:39.481  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 19:41:39.481  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@f4c1d0c
+2018-02-10 19:41:39.804  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69abd2f: startup date [Sat Feb 10 19:41:38 CST 2018]; root of context hierarchy
+2018-02-10 19:41:39.820  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 19:41:39.821  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 19:41:39.823  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 19:41:39.824  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 19:41:39.825  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 19:41:39.826  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:41:39.829  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:41:39.832  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 19:41:39.832  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 19:41:39.848  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:41:39.848  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:41:39.880  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:41:39.897  WARN 9784 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 19:41:39.991  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 19:41:40.279  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 19:41:40.280  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 19:41:40.283  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 19:41:40.286  INFO 9784 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 19:41:40.286  INFO 9784 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 19:41:40.286  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 19:41:40.300  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 19:41:40.301  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.764 seconds (JVM running for 250.437)
+2018-02-10 19:41:43.430  INFO 9784 --- [Thread-18] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69abd2f: startup date [Sat Feb 10 19:41:38 CST 2018]; root of context hierarchy
+2018-02-10 19:41:43.432  INFO 9784 --- [Thread-18] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 19:41:43.432  INFO 9784 --- [Thread-18] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:41:43.433  INFO 9784 --- [Thread-18] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 19:41:43.433  INFO 9784 --- [Thread-18] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 19:41:43.434  INFO 9784 --- [Thread-18] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 19:41:43.434  INFO 9784 --- [Thread-18] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 19:41:43.434  INFO 9784 --- [Thread-18] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:41:43.434  INFO 9784 --- [Thread-18] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 19:41:44.073  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 9784 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 19:41:44.073 DEBUG 9784 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 19:41:44.073  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 19:41:44.079  INFO 9784 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@255c6dbe: startup date [Sat Feb 10 19:41:44 CST 2018]; root of context hierarchy
+2018-02-10 19:41:44.544  INFO 9784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 19:41:44.628  INFO 9784 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c61811e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 19:41:44.708  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 19:41:44.709  INFO 9784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 19:41:44.709  INFO 9784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 19:41:44.726  INFO 9784 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 19:41:44.727  INFO 9784 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 648 ms
+2018-02-10 19:41:44.775  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 19:41:44.776  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 19:41:44.776  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 19:41:44.777  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 19:41:44.777  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 19:41:44.805  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 19:41:44.806  INFO 9784 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 19:41:44.806  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 19:41:44.806  INFO 9784 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 19:41:44.806  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 19:41:44.806  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 19:41:44.807  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 19:41:44.807  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@7027f74
+2018-02-10 19:41:45.080  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@255c6dbe: startup date [Sat Feb 10 19:41:44 CST 2018]; root of context hierarchy
+2018-02-10 19:41:45.091  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 19:41:45.091  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 19:41:45.091  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 19:41:45.092  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 19:41:45.092  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 19:41:45.092  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:41:45.092  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:41:45.095  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 19:41:45.095  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 19:41:45.106  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:41:45.106  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:41:45.120  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:41:45.134  WARN 9784 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 19:41:45.207  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 19:41:45.399  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 19:41:45.400  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 19:41:45.404  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 19:41:45.405  INFO 9784 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 19:41:45.405  INFO 9784 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 19:41:45.405  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 19:41:45.418  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 19:41:45.424  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.414 seconds (JVM running for 255.559)
+2018-02-10 19:42:08.484  INFO 9784 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 19:42:08.484  INFO 9784 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-10 19:42:08.488  INFO 9784 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2018-02-10 19:42:08.489  INFO 9784 --- [http-nio-7070-exec-1] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:42:08.492  INFO 9784 --- [http-nio-7070-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-02-10 19:42:08.506 DEBUG 9784 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityLocked      : ==>  Preparing: select id,Name,CountryCode,District,Population from city where id=? 
+2018-02-10 19:42:08.506 DEBUG 9784 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityLocked      : ==> Parameters: 1(Integer)
+2018-02-10 19:42:08.508 DEBUG 9784 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityLocked      : <==      Total: 1
+2018-02-10 19:42:08.509 DEBUG 9784 --- [http-nio-7070-exec-1] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:42:08.509 DEBUG 9784 --- [http-nio-7070-exec-1] c.example.mapper.CityMapper.updateName   : ==> Parameters: locked(String), 1(Integer)
+2018-02-10 19:42:08.511 DEBUG 9784 --- [http-nio-7070-exec-1] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:42:10.464  INFO 9784 --- [http-nio-7070-exec-5] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:42:10.469 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:42:10.470 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 1(Integer)
+2018-02-10 19:42:10.470 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:42:10.471 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:42:10.471 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 1(Integer)
+2018-02-10 19:42:28.517 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:43:26.270  INFO 9784 --- [http-nio-7070-exec-4] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:43:26.271 DEBUG 9784 --- [http-nio-7070-exec-4] c.e.mapper.CityMapper.getCityLocked      : ==>  Preparing: select id,Name,CountryCode,District,Population from city where id=? 
+2018-02-10 19:43:26.272 DEBUG 9784 --- [http-nio-7070-exec-4] c.e.mapper.CityMapper.getCityLocked      : ==> Parameters: 1(Integer)
+2018-02-10 19:43:26.273 DEBUG 9784 --- [http-nio-7070-exec-4] c.e.mapper.CityMapper.getCityLocked      : <==      Total: 1
+2018-02-10 19:43:26.274 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:43:26.275 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.updateName   : ==> Parameters: locked(String), 1(Integer)
+2018-02-10 19:43:26.278 DEBUG 9784 --- [http-nio-7070-exec-4] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:43:28.713  INFO 9784 --- [http-nio-7070-exec-6] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:43:28.714 DEBUG 9784 --- [http-nio-7070-exec-6] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:43:28.715 DEBUG 9784 --- [http-nio-7070-exec-6] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 1(Integer)
+2018-02-10 19:43:28.716 DEBUG 9784 --- [http-nio-7070-exec-6] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:43:28.716 DEBUG 9784 --- [http-nio-7070-exec-6] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:43:28.717 DEBUG 9784 --- [http-nio-7070-exec-6] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 1(Integer)
+2018-02-10 19:43:46.282 DEBUG 9784 --- [http-nio-7070-exec-6] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:44:28.819  INFO 9784 --- [http-nio-7070-exec-10] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:44:28.820 DEBUG 9784 --- [http-nio-7070-exec-10] c.e.mapper.CityMapper.getCityLocked      : ==>  Preparing: select id,Name,CountryCode,District,Population from city where id=? 
+2018-02-10 19:44:28.821 DEBUG 9784 --- [http-nio-7070-exec-10] c.e.mapper.CityMapper.getCityLocked      : ==> Parameters: 1(Integer)
+2018-02-10 19:44:28.822 DEBUG 9784 --- [http-nio-7070-exec-10] c.e.mapper.CityMapper.getCityLocked      : <==      Total: 1
+2018-02-10 19:44:28.822 DEBUG 9784 --- [http-nio-7070-exec-10] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:44:28.822 DEBUG 9784 --- [http-nio-7070-exec-10] c.example.mapper.CityMapper.updateName   : ==> Parameters: locked(String), 1(Integer)
+2018-02-10 19:44:28.826 DEBUG 9784 --- [http-nio-7070-exec-10] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:44:30.266  INFO 9784 --- [http-nio-7070-exec-9] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:44:30.267 DEBUG 9784 --- [http-nio-7070-exec-9] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:44:30.268 DEBUG 9784 --- [http-nio-7070-exec-9] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 2(Integer)
+2018-02-10 19:44:30.268 DEBUG 9784 --- [http-nio-7070-exec-9] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:44:30.268 DEBUG 9784 --- [http-nio-7070-exec-9] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:44:30.269 DEBUG 9784 --- [http-nio-7070-exec-9] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 2(Integer)
+2018-02-10 19:44:30.272 DEBUG 9784 --- [http-nio-7070-exec-9] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:44:34.219  INFO 9784 --- [http-nio-7070-exec-8] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:44:34.220 DEBUG 9784 --- [http-nio-7070-exec-8] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:44:34.220 DEBUG 9784 --- [http-nio-7070-exec-8] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 2(Integer)
+2018-02-10 19:44:34.221 DEBUG 9784 --- [http-nio-7070-exec-8] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:44:34.222 DEBUG 9784 --- [http-nio-7070-exec-8] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:44:34.222 DEBUG 9784 --- [http-nio-7070-exec-8] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 2(Integer)
+2018-02-10 19:44:34.226 DEBUG 9784 --- [http-nio-7070-exec-8] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:47:09.770  INFO 9784 --- [Thread-25] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@255c6dbe: startup date [Sat Feb 10 19:41:44 CST 2018]; root of context hierarchy
+2018-02-10 19:47:09.774  INFO 9784 --- [Thread-25] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 19:47:09.774  INFO 9784 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:47:09.775  INFO 9784 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 19:47:09.775  INFO 9784 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 19:47:09.778  INFO 9784 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2018-02-10 19:47:09.780  INFO 9784 --- [Thread-25] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 19:47:09.780  INFO 9784 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 19:47:09.780  INFO 9784 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 19:47:09.780  INFO 9784 --- [Thread-25] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 19:47:10.417  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 9784 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 19:47:10.417 DEBUG 9784 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 19:47:10.417  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 19:47:10.426  INFO 9784 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b332d87: startup date [Sat Feb 10 19:47:10 CST 2018]; root of context hierarchy
+2018-02-10 19:47:10.912  INFO 9784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 19:47:10.995  INFO 9784 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c61811e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 19:47:11.084  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 19:47:11.087  INFO 9784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 19:47:11.087  INFO 9784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 19:47:11.106  INFO 9784 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 19:47:11.106  INFO 9784 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 680 ms
+2018-02-10 19:47:11.162  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 19:47:11.162  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 19:47:11.163  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 19:47:11.163  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 19:47:11.163  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 19:47:11.211  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 19:47:11.212  INFO 9784 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 19:47:11.213  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 19:47:11.213  INFO 9784 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 19:47:11.213  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 19:47:11.215  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 19:47:11.215  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 19:47:11.215  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@c06a157
+2018-02-10 19:47:11.502  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b332d87: startup date [Sat Feb 10 19:47:10 CST 2018]; root of context hierarchy
+2018-02-10 19:47:11.514  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 19:47:11.515  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 19:47:11.515  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 19:47:11.515  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 19:47:11.515  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 19:47:11.516  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:47:11.516  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 19:47:11.519  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 19:47:11.519  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 19:47:11.534  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:47:11.534  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:47:11.552  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 19:47:11.572  WARN 9784 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 19:47:11.664  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 19:47:11.846  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 19:47:11.846  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 19:47:11.849  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 19:47:11.850  INFO 9784 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 19:47:11.850  INFO 9784 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 19:47:11.850  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 19:47:11.866  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 19:47:11.871  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.519 seconds (JVM running for 582.006)
+2018-02-10 19:47:19.925  INFO 9784 --- [http-nio-7070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 19:47:19.925  INFO 9784 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-10 19:47:19.929  INFO 9784 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2018-02-10 19:47:19.930  INFO 9784 --- [http-nio-7070-exec-2] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:47:19.934  INFO 9784 --- [http-nio-7070-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2018-02-10 19:47:19.944 DEBUG 9784 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.getCityLocked      : ==>  Preparing: select id,Name,CountryCode,District,Population from city where id=? 
+2018-02-10 19:47:19.945 DEBUG 9784 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.getCityLocked      : ==> Parameters: 1(Integer)
+2018-02-10 19:47:19.946 DEBUG 9784 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.getCityLocked      : <==      Total: 1
+2018-02-10 19:47:19.947 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:47:19.947 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.updateName   : ==> Parameters: locked(String), 1(Integer)
+2018-02-10 19:47:19.951 DEBUG 9784 --- [http-nio-7070-exec-2] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 19:47:21.678  INFO 9784 --- [http-nio-7070-exec-5] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 19:47:21.689  INFO 9784 --- [http-nio-7070-exec-5] c.example.service.Impl.CityServiceImpl   : 开始查询
+2018-02-10 19:47:21.689 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND id=? 
+2018-02-10 19:47:21.689 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : ==> Parameters: 1(Integer)
+2018-02-10 19:47:21.690 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.getCityById  : <==      Total: 1
+2018-02-10 19:47:21.690  INFO 9784 --- [http-nio-7070-exec-5] c.example.service.Impl.CityServiceImpl   : 获得结果
+2018-02-10 19:47:21.691 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : ==>  Preparing: UPDATE city SET Name=? WHERE id =? 
+2018-02-10 19:47:21.691 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : ==> Parameters: unlocked(String), 1(Integer)
+2018-02-10 19:47:39.954 DEBUG 9784 --- [http-nio-7070-exec-5] c.example.mapper.CityMapper.updateName   : <==    Updates: 1
+2018-02-10 22:16:42.356  INFO 9784 --- [Thread-32] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b332d87: startup date [Sat Feb 10 19:47:10 CST 2018]; root of context hierarchy
+2018-02-10 22:16:42.372  INFO 9784 --- [Thread-32] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 22:16:42.373  INFO 9784 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:16:42.376  INFO 9784 --- [Thread-32] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:16:42.376  INFO 9784 --- [Thread-32] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 22:16:42.378  INFO 9784 --- [Thread-32] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2018-02-10 22:16:42.380  INFO 9784 --- [Thread-32] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 22:16:42.380  INFO 9784 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 22:16:42.380  INFO 9784 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:16:42.381  INFO 9784 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 22:16:43.276  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 9784 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 22:16:43.277 DEBUG 9784 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 22:16:43.277  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 22:16:43.294  INFO 9784 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b1270a2: startup date [Sat Feb 10 22:16:43 CST 2018]; root of context hierarchy
+2018-02-10 22:16:43.914  INFO 9784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 22:16:44.021  INFO 9784 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c61811e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:16:44.129  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 22:16:44.129  INFO 9784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 22:16:44.130  INFO 9784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 22:16:44.151  INFO 9784 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:16:44.152  INFO 9784 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 858 ms
+2018-02-10 22:16:44.197  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:16:44.198  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:16:44.198  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:16:44.198  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:16:44.198  INFO 9784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:16:44.226  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 22:16:44.228  INFO 9784 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 22:16:44.228  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 22:16:44.228  INFO 9784 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 22:16:44.228  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 22:16:44.228  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 22:16:44.228  INFO 9784 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 22:16:44.228  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4d8400f
+2018-02-10 22:16:44.440  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b1270a2: startup date [Sat Feb 10 22:16:43 CST 2018]; root of context hierarchy
+2018-02-10 22:16:44.453  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 22:16:44.453  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 22:16:44.453  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 22:16:44.454  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 22:16:44.454  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 22:16:44.454  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:16:44.454  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:16:44.456  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:16:44.456  INFO 9784 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:16:44.468  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:16:44.468  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:16:44.485  INFO 9784 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:16:44.499  WARN 9784 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 22:16:44.613  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:16:44.863  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:16:44.864  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 22:16:44.869  INFO 9784 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 22:16:44.870  INFO 9784 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 22:16:44.870  INFO 9784 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 22:16:44.870  INFO 9784 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 22:16:44.884  INFO 9784 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 22:16:44.887  INFO 9784 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.722 seconds (JVM running for 9555.026)
+2018-02-10 22:16:49.184  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-10 22:16:49.184  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b1270a2: startup date [Sat Feb 10 22:16:43 CST 2018]; root of context hierarchy
+2018-02-10 22:16:49.185  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 22:16:49.185  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:16:49.187  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:16:49.189  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 22:16:49.191  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 22:16:49.191  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 22:16:49.191  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:16:49.191  INFO 9784 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 22:34:23.287  INFO 2264 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 2264 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 22:34:23.288 DEBUG 2264 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 22:34:23.288  INFO 2264 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 22:34:23.513  INFO 2264 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62bad2cb: startup date [Sat Feb 10 22:34:23 CST 2018]; root of context hierarchy
+2018-02-10 22:34:24.249  INFO 2264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 22:34:24.651  INFO 2264 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25c8dcdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:34:25.026  INFO 2264 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 22:34:25.035  INFO 2264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 22:34:25.036  INFO 2264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 22:34:25.119  INFO 2264 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:34:25.119  INFO 2264 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1610 ms
+2018-02-10 22:34:25.284  INFO 2264 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:34:25.288  INFO 2264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:34:25.289  INFO 2264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:34:25.289  INFO 2264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:34:25.289  INFO 2264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:34:25.381  INFO 2264 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 22:34:25.397  INFO 2264 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 22:34:25.398  INFO 2264 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 22:34:25.400  INFO 2264 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 22:34:25.400  INFO 2264 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 22:34:25.401  INFO 2264 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 22:34:25.401  INFO 2264 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 22:34:25.402  INFO 2264 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@918ed58
+2018-02-10 22:34:26.352  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62bad2cb: startup date [Sat Feb 10 22:34:23 CST 2018]; root of context hierarchy
+2018-02-10 22:34:26.516  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 22:34:26.517  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 22:34:26.518  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 22:34:26.520  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 22:34:26.520  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 22:34:26.521  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:34:26.521  INFO 2264 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:34:26.523  WARN 2264 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'transationController' method 
+public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+to {[/process]}: There is already 'transationController' bean method
+public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception mapped.
+2018-02-10 22:34:26.526  INFO 2264 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 22:34:26.526  INFO 2264 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 22:34:26.526  INFO 2264 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:34:26.526  INFO 2264 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 22:34:26.529  INFO 2264 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-10 22:34:26.554  INFO 2264 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-10 22:34:26.565 ERROR 2264 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'transationController' method 
+public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+to {[/process]}: There is already 'transationController' bean method
+public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.run.Demo2Application.main(Demo2Application.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'transationController' method 
+public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+to {[/process]}: There is already 'transationController' bean method
+public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 21 common frames omitted
+
+2018-02-10 22:35:41.821  INFO 15136 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 15136 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 22:35:41.822 DEBUG 15136 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 22:35:41.823  INFO 15136 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 22:35:42.007  INFO 15136 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5228728c: startup date [Sat Feb 10 22:35:42 CST 2018]; root of context hierarchy
+2018-02-10 22:35:42.689  INFO 15136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 22:35:43.086  INFO 15136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b6071d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:35:43.449  INFO 15136 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 22:35:43.458  INFO 15136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 22:35:43.459  INFO 15136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 22:35:43.564  INFO 15136 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:35:43.565  INFO 15136 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1561 ms
+2018-02-10 22:35:43.747  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:35:43.752  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:35:43.753  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:35:43.754  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:35:43.754  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:35:43.850  INFO 15136 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 22:35:43.866  INFO 15136 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 22:35:43.868  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 22:35:43.869  INFO 15136 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 22:35:43.870  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 22:35:43.871  INFO 15136 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 22:35:43.871  INFO 15136 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 22:35:43.873  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5c886cc5
+2018-02-10 22:35:44.766  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5228728c: startup date [Sat Feb 10 22:35:42 CST 2018]; root of context hierarchy
+2018-02-10 22:35:44.933  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 22:35:44.934  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 22:35:44.934  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 22:35:44.936  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 22:35:44.936  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 22:35:44.936  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:35:44.937  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process2]}" onto public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-10 22:35:44.938  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:35:44.938  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock2]}" onto public java.lang.String com.example.controller.TransationController.processLock2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-10 22:35:44.941  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:35:44.942  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:35:44.982  INFO 15136 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:35:44.983  INFO 15136 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:35:45.034  INFO 15136 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:35:45.079  WARN 15136 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 22:35:45.673  INFO 15136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:35:45.912  INFO 15136 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:35:45.916  INFO 15136 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 22:35:45.923  INFO 15136 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 22:35:45.928  INFO 15136 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 22:35:45.929  INFO 15136 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 22:35:45.929  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 22:35:46.027  INFO 15136 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 22:35:46.048  INFO 15136 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 4.54 seconds (JVM running for 5.482)
+2018-02-10 22:36:59.988  INFO 15136 --- [http-nio-7070-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 22:36:59.989  INFO 15136 --- [http-nio-7070-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-10 22:37:00.026  INFO 15136 --- [http-nio-7070-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-02-10 22:37:00.046  INFO 15136 --- [http-nio-7070-exec-3] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:37:00.100  INFO 15136 --- [http-nio-7070-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-02-10 22:37:00.295 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:37:00.315 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Kabul(String)
+2018-02-10 22:37:00.329 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityByName      : <==      Total: 1
+2018-02-10 22:37:00.330 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.updateDistrict     : ==>  Preparing: UPDATE city SET District=? WHERE id =? 
+2018-02-10 22:37:00.331 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.updateDistrict     : ==> Parameters: one(String), 1(Integer)
+2018-02-10 22:37:00.334 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.updateDistrict     : <==    Updates: 1
+2018-02-10 22:37:01.774  INFO 15136 --- [http-nio-7070-exec-4] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:37:01.782 DEBUG 15136 --- [http-nio-7070-exec-4] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:37:01.782 DEBUG 15136 --- [http-nio-7070-exec-4] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Qandahar(String)
+2018-02-10 22:37:01.785 DEBUG 15136 --- [http-nio-7070-exec-4] c.e.mapper.CityMapper.getCityByName      : <==      Total: 0
+2018-02-10 22:37:01.800 ERROR 15136 --- [http-nio-7070-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.example.service.Impl.CityServiceImpl.updateDistrict(CityServiceImpl.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy73.updateDistrict(Unknown Source)
+	at com.example.controller.TransationController.process2(TransationController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-02-10 22:37:01.807  INFO 15136 --- [http-nio-7070-exec-4] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:37:52.137  INFO 15136 --- [http-nio-7070-exec-5] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:37:52.138 DEBUG 15136 --- [http-nio-7070-exec-5] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:37:52.139 DEBUG 15136 --- [http-nio-7070-exec-5] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Kabul(String)
+2018-02-10 22:37:52.144 DEBUG 15136 --- [http-nio-7070-exec-5] c.e.mapper.CityMapper.getCityByName      : <==      Total: 1
+2018-02-10 22:37:52.145 DEBUG 15136 --- [http-nio-7070-exec-5] c.e.mapper.CityMapper.updateDistrict     : ==>  Preparing: UPDATE city SET District=? WHERE id =? 
+2018-02-10 22:37:52.145 DEBUG 15136 --- [http-nio-7070-exec-5] c.e.mapper.CityMapper.updateDistrict     : ==> Parameters: one(String), 1(Integer)
+2018-02-10 22:37:52.147 DEBUG 15136 --- [http-nio-7070-exec-5] c.e.mapper.CityMapper.updateDistrict     : <==    Updates: 1
+2018-02-10 22:37:53.929  INFO 15136 --- [http-nio-7070-exec-9] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:37:53.931 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:37:53.931 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Qandahar(String)
+2018-02-10 22:37:53.934 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.getCityByName      : <==      Total: 0
+2018-02-10 22:37:53.936 ERROR 15136 --- [http-nio-7070-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.example.service.Impl.CityServiceImpl.updateDistrict(CityServiceImpl.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy73.updateDistrict(Unknown Source)
+	at com.example.controller.TransationController.process2(TransationController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-02-10 22:37:53.938  INFO 15136 --- [http-nio-7070-exec-9] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:38:33.379  INFO 15136 --- [http-nio-7070-exec-6] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:38:33.381 DEBUG 15136 --- [http-nio-7070-exec-6] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:38:33.381 DEBUG 15136 --- [http-nio-7070-exec-6] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Qandahar(String)
+2018-02-10 22:38:33.383 DEBUG 15136 --- [http-nio-7070-exec-6] c.e.mapper.CityMapper.getCityByName      : <==      Total: 0
+2018-02-10 22:38:33.386 ERROR 15136 --- [http-nio-7070-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.example.service.Impl.CityServiceImpl.updateDistrict(CityServiceImpl.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy73.updateDistrict(Unknown Source)
+	at com.example.controller.TransationController.process2(TransationController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-02-10 22:38:33.387  INFO 15136 --- [http-nio-7070-exec-6] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:38:35.093  INFO 15136 --- [http-nio-7070-exec-7] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:38:35.095 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:38:35.095 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Qandahar(String)
+2018-02-10 22:38:35.097 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.getCityByName      : <==      Total: 0
+2018-02-10 22:38:35.100 ERROR 15136 --- [http-nio-7070-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.example.service.Impl.CityServiceImpl.updateDistrict(CityServiceImpl.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy73.updateDistrict(Unknown Source)
+	at com.example.controller.TransationController.process2(TransationController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-02-10 22:38:35.101  INFO 15136 --- [http-nio-7070-exec-7] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:39:11.405  INFO 15136 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5228728c: startup date [Sat Feb 10 22:35:42 CST 2018]; root of context hierarchy
+2018-02-10 22:39:11.410  INFO 15136 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 22:39:11.410  INFO 15136 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:39:11.413  INFO 15136 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:39:11.413  INFO 15136 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 22:39:11.419  INFO 15136 --- [Thread-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-02-10 22:39:11.421  INFO 15136 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 22:39:11.421  INFO 15136 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 22:39:11.421  INFO 15136 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:39:11.422  INFO 15136 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-10 22:39:11.988  INFO 15136 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on kenhome with PID 15136 (started by meikai in D:\Program Files (x86)\workspace\springboot\demo-2)
+2018-02-10 22:39:11.989 DEBUG 15136 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 22:39:11.989  INFO 15136 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-10 22:39:11.992  INFO 15136 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e61f785: startup date [Sat Feb 10 22:39:11 CST 2018]; root of context hierarchy
+2018-02-10 22:39:12.464  INFO 15136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-10 22:39:12.553  INFO 15136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b6071d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-10 22:39:12.662  INFO 15136 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-10 22:39:12.665  INFO 15136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-10 22:39:12.666  INFO 15136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-10 22:39:12.700  INFO 15136 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-10 22:39:12.701  INFO 15136 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 709 ms
+2018-02-10 22:39:12.746  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-10 22:39:12.746  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-10 22:39:12.746  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-10 22:39:12.746  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-10 22:39:12.746  INFO 15136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-10 22:39:12.783  INFO 15136 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-10 22:39:12.784  INFO 15136 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-10 22:39:12.784  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-10 22:39:12.784  INFO 15136 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-10 22:39:12.784  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-10 22:39:12.784  INFO 15136 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-10 22:39:12.784  INFO 15136 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-10 22:39:12.784  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2cf0b6aa
+2018-02-10 22:39:13.099  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e61f785: startup date [Sat Feb 10 22:39:11 CST 2018]; root of context hierarchy
+2018-02-10 22:39:13.113  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-10 22:39:13.113  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld()
+2018-02-10 22:39:13.113  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-10 22:39:13.115  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-10 22:39:13.115  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-10 22:39:13.115  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:39:13.116  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process2]}" onto public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-10 22:39:13.116  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-10 22:39:13.116  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock2]}" onto public java.lang.String com.example.controller.TransationController.processLock2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-10 22:39:13.118  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 22:39:13.118  INFO 15136 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 22:39:13.133  INFO 15136 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:39:13.133  INFO 15136 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:39:13.150  INFO 15136 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 22:39:13.168  WARN 15136 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-02-10 22:39:13.280  INFO 15136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-10 22:39:13.511  INFO 15136 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-10 22:39:13.513  INFO 15136 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-10 22:39:13.524  INFO 15136 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-10 22:39:13.525  INFO 15136 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-10 22:39:13.526  INFO 15136 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-10 22:39:13.526  INFO 15136 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-10 22:39:13.542  INFO 15136 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-10 22:39:13.546  INFO 15136 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 1.632 seconds (JVM running for 212.98)
+2018-02-10 22:39:21.317  INFO 15136 --- [http-nio-7070-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-10 22:39:21.317  INFO 15136 --- [http-nio-7070-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-10 22:39:21.323  INFO 15136 --- [http-nio-7070-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2018-02-10 22:39:21.324  INFO 15136 --- [http-nio-7070-exec-3] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:39:21.328  INFO 15136 --- [http-nio-7070-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-02-10 22:39:21.340 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:39:21.340 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Qandahar(String)
+2018-02-10 22:39:21.343 DEBUG 15136 --- [http-nio-7070-exec-3] c.e.mapper.CityMapper.getCityByName      : <==      Total: 0
+2018-02-10 22:39:21.346 ERROR 15136 --- [http-nio-7070-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.example.service.Impl.CityServiceImpl.updateDistrict(CityServiceImpl.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy94.updateDistrict(Unknown Source)
+	at com.example.controller.TransationController.process2(TransationController.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-02-10 22:39:21.349  INFO 15136 --- [http-nio-7070-exec-3] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:40:23.119  INFO 15136 --- [http-nio-7070-exec-2] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:40:23.125 DEBUG 15136 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:40:23.126 DEBUG 15136 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Qandahar(String)
+2018-02-10 22:40:23.128 DEBUG 15136 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.getCityByName      : <==      Total: 1
+2018-02-10 22:40:23.129 DEBUG 15136 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.updateDistrict     : ==>  Preparing: UPDATE city SET District=? WHERE id =? 
+2018-02-10 22:40:23.129 DEBUG 15136 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.updateDistrict     : ==> Parameters: two(String), 2(Integer)
+2018-02-10 22:40:23.133 DEBUG 15136 --- [http-nio-7070-exec-2] c.e.mapper.CityMapper.updateDistrict     : <==    Updates: 1
+2018-02-10 22:40:31.388  INFO 15136 --- [http-nio-7070-exec-1] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:40:31.389 DEBUG 15136 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:40:31.389 DEBUG 15136 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Kabul(String)
+2018-02-10 22:40:31.392 DEBUG 15136 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.getCityByName      : <==      Total: 1
+2018-02-10 22:40:31.392 DEBUG 15136 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.updateDistrict     : ==>  Preparing: UPDATE city SET District=? WHERE id =? 
+2018-02-10 22:40:31.392 DEBUG 15136 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.updateDistrict     : ==> Parameters: one(String), 1(Integer)
+2018-02-10 22:40:31.395 DEBUG 15136 --- [http-nio-7070-exec-1] c.e.mapper.CityMapper.updateDistrict     : <==    Updates: 1
+2018-02-10 22:40:32.834  INFO 15136 --- [http-nio-7070-exec-9] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:40:32.844 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:40:32.844 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Qandahar(String)
+2018-02-10 22:40:32.849 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.getCityByName      : <==      Total: 1
+2018-02-10 22:40:32.849 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.updateDistrict     : ==>  Preparing: UPDATE city SET District=? WHERE id =? 
+2018-02-10 22:40:32.849 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.updateDistrict     : ==> Parameters: two(String), 2(Integer)
+2018-02-10 22:40:32.851 DEBUG 15136 --- [http-nio-7070-exec-9] c.e.mapper.CityMapper.updateDistrict     : <==    Updates: 1
+2018-02-10 22:40:59.102  INFO 15136 --- [http-nio-7070-exec-8] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:40:59.103 DEBUG 15136 --- [http-nio-7070-exec-8] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:40:59.104 DEBUG 15136 --- [http-nio-7070-exec-8] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Kabul(String)
+2018-02-10 22:40:59.107 DEBUG 15136 --- [http-nio-7070-exec-8] c.e.mapper.CityMapper.getCityByName      : <==      Total: 1
+2018-02-10 22:40:59.108 DEBUG 15136 --- [http-nio-7070-exec-8] c.e.mapper.CityMapper.updateDistrict     : ==>  Preparing: UPDATE city SET District=? WHERE id =? 
+2018-02-10 22:40:59.108 DEBUG 15136 --- [http-nio-7070-exec-8] c.e.mapper.CityMapper.updateDistrict     : ==> Parameters: one(String), 1(Integer)
+2018-02-10 22:40:59.111 DEBUG 15136 --- [http-nio-7070-exec-8] c.e.mapper.CityMapper.updateDistrict     : <==    Updates: 1
+2018-02-10 22:41:00.811  INFO 15136 --- [http-nio-7070-exec-7] c.example.interceptors.DataInterceptor   : 进入拦截器
+2018-02-10 22:41:00.815 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.getCityByName      : ==>  Preparing: select id,Name,CountryCode,District,Population from city WHERE 1=1 AND Name=? 
+2018-02-10 22:41:00.815 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.getCityByName      : ==> Parameters: Kabul(String)
+2018-02-10 22:41:00.817 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.getCityByName      : <==      Total: 1
+2018-02-10 22:41:00.818 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.updateDistrict     : ==>  Preparing: UPDATE city SET District=? WHERE id =? 
+2018-02-10 22:41:00.818 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.updateDistrict     : ==> Parameters: two(String), 1(Integer)
+2018-02-10 22:41:19.117 DEBUG 15136 --- [http-nio-7070-exec-7] c.e.mapper.CityMapper.updateDistrict     : <==    Updates: 1
+2018-02-10 22:49:23.891  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-10 22:49:23.891  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e61f785: startup date [Sat Feb 10 22:39:11 CST 2018]; root of context hierarchy
+2018-02-10 22:49:23.892  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-10 22:49:23.893  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:49:23.894  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-10 22:49:23.894  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-10 22:49:23.896  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-02-10 22:49:23.897  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-10 22:49:23.897  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-10 22:49:23.897  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-10 22:49:23.898  INFO 15136 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.

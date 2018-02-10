@@ -58,19 +58,73 @@ public class CityServiceImpl implements CityService {
     @Transactional(rollbackFor = {Exception.class,RuntimeException.class})
 	public  String updateName(Integer id,String cityName) throws Exception {
 		
-		
+		log.info("开始查询");
 		City city =cityMapper.getCityById(id);
-		
+		log.info("获得结果");
 		city.setName(cityName);
 		
 		Integer resultCode = cityMapper.updateName(city);
 		
-		if(true) throw new Exception("抛出异常");
 		if(resultCode==1) {
 			return "sucess";
 		}
 		return "faile";
 		
+	}
+
+    
+	/**
+	 * 锁
+	 */
+	@Override
+	@Transactional(rollbackFor = {Exception.class,RuntimeException.class})
+	public String updateNameLocked(Integer id, String cityName) throws Exception {
+        City city =cityMapper.getCityLocked(id);
+		
+		city.setName(cityName);
+		
+		Integer resultCode = cityMapper.updateName(city);
+		
+		//休眠
+		Thread.sleep(20000);
+		
+		if(resultCode==1) {
+			return "sucess";
+		}
+		return "faile";
+	}
+     
+	
+	
+	@Override
+	@Transactional(rollbackFor = {Exception.class,RuntimeException.class})
+	public String updateDistrictLocked(String cityName, String district) throws InterruptedException {
+		
+		City city =cityMapper.getCityByName(cityName);
+		city.setDistrict(district);
+		Integer resultCode = cityMapper.updateDistrict(city);
+		
+		//休眠
+		Thread.sleep(20000);
+		
+		if(resultCode==1) {
+			return "sucess";
+		}
+		return "faile";
+		
+	}
+
+	@Override
+	@Transactional(rollbackFor = {Exception.class,RuntimeException.class})
+	public String updateDistrict(String cityName, String district) {
+		
+		City city =cityMapper.getCityByName(cityName);
+		city.setDistrict(district);
+		Integer resultCode = cityMapper.updateDistrict(city);
+		if(resultCode==1) {
+			return "sucess";
+		}
+		return "faile";
 	}
 
 }

@@ -52,14 +52,4 @@ public class HelloWorldController {
 		return "hello world";
 	}
 	
-	
-	@RequestMapping("/process")
-	public String process(Integer id,String cityName) throws Exception {
-		
-		String result =cityService.updateName(id, cityName);
-		
-		return result;
-	}
-
-
 }
