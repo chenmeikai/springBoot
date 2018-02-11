@@ -119,6 +119,7 @@ public class CityServiceImpl implements CityService {
 	public String updateDistrict(String cityName, String district) {
 		
 		City city =cityMapper.getCityByName(cityName);
+		System.out.println("查询出数据");
 		city.setDistrict(district);
 		Integer resultCode = cityMapper.updateDistrict(city);
 		if(resultCode==1) {

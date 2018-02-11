@@ -3,6 +3,8 @@
  */
 package com.example.service;
 
+import java.util.concurrent.Future;
+
 import org.springframework.scheduling.annotation.Async;
 
 /**
@@ -11,12 +13,22 @@ import org.springframework.scheduling.annotation.Async;
  */
 public interface SyncService {
 	@Async
-	String one() ;
+	Future<String> one() ;
 	@Async
-	String two() ;
+	Future<String> two() ;
 	@Async
-	String three();
+	Future<String> three();
 	@Async
-	String four() ;
+	Future<String> four() ;
+	@Async
+	Future<String> five() ;
+	@Async
+	Future<String> six() ;
+	@Async
+	Future<String> seven();
+	@Async
+	Future<String> eight() ;
+	@Async
+	Future<String> nine() ;
 
 }

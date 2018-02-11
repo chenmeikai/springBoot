@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.example.activeMq.AlarmProducer;
+import com.example.activeMq.Sender;
 
 /**
  * @author Admin
@@ -25,14 +25,10 @@ import com.example.activeMq.AlarmProducer;
 public class ActiveController {
 	
 	@Autowired
-    private AlarmProducer alarmProducer;
+    private Sender alarmProducer;
     
     @RequestMapping(value="/active",method=RequestMethod.GET)
     @ResponseBody
-    /*@ApiOperation(value="触发报警", notes="触发报警")
-    @ApiImplicitParams({
-        @ApiImplicitParam(name = "devicename", value = "name",example = "xxxx", required = true, dataType = "string",paramType="query"),
-    })*/
     public String chufabaojing(String devicename){
         
         List<String> alarmStrList = new ArrayList<>();

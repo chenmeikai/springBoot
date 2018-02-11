@@ -56,6 +56,13 @@ public class TransationController {
 		return result;
 	}
 	
+	//根据城市名查询城市，修改district，在/processLock2请求时发起请求，观察是否等待/processLock2完成时才执行
+		@RequestMapping("/process3")
+		public String process3(String cityName,String district) throws Exception {
+			cityService.getCitys(1, 10);
+			return "result";
+		}
+	
 	
 	
 

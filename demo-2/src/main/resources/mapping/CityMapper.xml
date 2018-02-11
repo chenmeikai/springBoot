@@ -23,6 +23,12 @@
      </if>
   </select>
   
+  <select id="getCitys"  resultMap="BaseResultMap" >
+    select
+    id,Name,CountryCode,District,Population
+    from city
+  </select>
+  
   <select id="getCityByName"  resultMap="BaseResultMap"  parameterType="String" >
     select
     id,Name,CountryCode,District,Population
@@ -31,6 +37,7 @@
      <if test="cityName != null">
          AND Name=#{cityName,jdbcType=VARCHAR}
      </if>
+     <!-- FOR UPDATE -->
   </select>
   
   <select id="getCityLocked"  resultMap="BaseResultMap" parameterType="int"   >
