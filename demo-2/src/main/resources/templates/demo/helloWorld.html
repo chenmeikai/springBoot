@@ -1,0 +1,19 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"  
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">  
+    <head>  
+        <title>Hello World!</title>  
+    </head>  
+    <body>  
+        <h1 th:inline="text">Hello.v.2</h1>  
+        <p th:text="${hello}"></p>  
+        
+        <!-- 引入其它模板 -->
+        <!-- 其中th:include中的参数格式为templatename::[domselector], 其中templatename是模板名（如demo/footer），
+        domselector是可选的dom选择器。如果只写templatename，不写domselector，则会加载整个模板。 -->
+        <div th:include="demo/footer :: copyright"></div>
+        <!-- id形式引入 -->
+        <div th:include="demo/footer :: #targetId"></div>
+        
+    </body>  
+</html>
