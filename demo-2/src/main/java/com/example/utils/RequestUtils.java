@@ -51,7 +51,7 @@ public class RequestUtils {
 	
 	  
     /** 
-     * 将request流中的数据转换成String 
+     * 将request流中的数据转换成String,会截流 
      * @param request 
      * @return 
      */  

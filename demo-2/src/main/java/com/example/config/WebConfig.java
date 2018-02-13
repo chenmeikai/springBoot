@@ -8,6 +8,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import com.example.interceptors.DataInterceptor;
+import com.example.interceptors.LoggerInterceptor;
 
 /**
  * @author meikai
@@ -23,6 +24,9 @@ public class WebConfig
         // addPathPatterns 用于添加拦截规则
         // excludePathPatterns 用户排除拦截
         registry.addInterceptor(new DataInterceptor()).addPathPatterns("/**");
+        
+        //log日志记录
+        registry.addInterceptor(new LoggerInterceptor()).addPathPatterns("/**");
         super.addInterceptors(registry);
     }
 
