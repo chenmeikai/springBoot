@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.mapper.CityMapper;
@@ -55,7 +56,7 @@ public class CityServiceImpl implements CityService {
 
 
 	@Override
-    @Transactional(rollbackFor = {Exception.class,RuntimeException.class})
+    @Transactional(rollbackFor = {Exception.class,RuntimeException.class},isolation =Isolation.REPEATABLE_READ)
 	public  String updateName(Integer id,String cityName) throws Exception {
 		
 		log.info("开始查询");
@@ -77,7 +78,7 @@ public class CityServiceImpl implements CityService {
 	 * 锁
 	 */
 	@Override
-	@Transactional(rollbackFor = {Exception.class,RuntimeException.class})
+	@Transactional(rollbackFor = {Exception.class,RuntimeException.class},isolation =Isolation.REPEATABLE_READ)
 	public String updateNameLocked(Integer id, String cityName) throws Exception {
         City city =cityMapper.getCityLocked(id);
 		
