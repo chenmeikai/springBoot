@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.mapper.LogMapper" >
+  <resultMap id="BaseResultMap" type="com.example.model.Log" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="log_client_ip" property="clientIp" jdbcType="VARCHAR" />
+    <result column="log_uri" property="uri" jdbcType="VARCHAR" />
+    <result column="log_type" property="type" jdbcType="VARCHAR" />
+    <result column="log_method" property="method" jdbcType="VARCHAR" />
+    <result column="log_param_data" property="paramData" jdbcType="VARCHAR" />
+    <result column="log_session_id" property="sessionId" jdbcType="VARCHAR" />
+    <result column="log_reqeust_time" property="reqeustTime" jdbcType="DATE" />
+    <result column="log_return_time" property="returnTime" jdbcType="DATE" />
+    <result column="log_return_data" property="returnData" jdbcType="VARCHAR" />
+    <result column="log_http_status_code" property="statuCode" jdbcType="VARCHAR" />
+    <result column="log_time_consuming" property="timeConsuming" jdbcType="INTEGER" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id,log_client_ip,log_uri,log_type,log_method,log_param_data,log_session_id,log_reqeust_time,log_return_time,log_return_data,
+    log_http_status_code,log_time_consuming
+  </sql>
+  
+  <!-- 新增记录 -->
+    <insert id="save" useGeneratedKeys="true" keyProperty="id" parameterType="com.example.model.Log" >
+       INSERT INTO t_log_infos (
+         log_client_ip,log_uri,log_type,log_method,log_param_data,log_session_id,log_reqeust_time,log_return_time,log_return_data,
+         log_http_status_code,log_time_consuming
+        )
+        VALUES (
+        #{clientIp,jdbcType=VARCHAR},
+        #{uri,jdbcType=VARCHAR},
+        #{type,jdbcType=VARCHAR},
+        #{method,jdbcType=VARCHAR},
+        #{paramData,jdbcType=VARCHAR},
+        #{sessionId,jdbcType=VARCHAR},
+        #{reqeustTime,jdbcType=DATE},
+        #{returnTime,jdbcType=DATE},
+        #{returnData,jdbcType=VARCHAR},
+        #{statuCode,jdbcType=VARCHAR},
+        #{timeConsuming,jdbcType=INTEGER}
+        )
+    </insert>
+  
+</mapper>

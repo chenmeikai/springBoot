@@ -37,21 +37,12 @@ public class ActiveController {
         alarmStrList.add(devicename+"in fence01");
         alarmStrList.add(devicename+"in fence02");
         
-        System.out.println("设备"+devicename+"出围栏报警");
-        // 报警信息写入数据库
-        System.out.println("报警数据写入数据库。。。");
-        
         // 写入消息队列
         Destination destination = new ActiveMQQueue("mytest.queue");
         for (String alarmStr : alarmStrList) {
             alarmProducer.sendMessage(destination, alarmStr);
         }
         
-        // 消息写进消息队列里就不管了
-        
-        // 下面两步骤移到activemq消费者里
-        // 发送邮件
-        // 发送短信
         
         return "success";
     }

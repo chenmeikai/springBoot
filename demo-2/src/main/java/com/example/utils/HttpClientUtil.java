@@ -15,6 +15,9 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -432,6 +435,49 @@ public class HttpClientUtil {
             }
         }
         return prestr;
+    }
+	
+	
+	 /**
+     * 获取客户端ip地址
+     * @param request
+     * @return
+     */
+    public static String getCliectIp(HttpServletRequest request)
+    {
+        String ip = request.getHeader("x-forwarded-for");
+        if (ip == null || ip.trim() == "" || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getHeader("Proxy-Client-IP");
+        }
+        if (ip == null || ip.trim() == "" || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getHeader("WL-Proxy-Client-IP");
+        }
+        if (ip == null || ip.trim() == "" || "unknown".equalsIgnoreCase(ip)) {
+            ip = request.getRemoteAddr();
+        }
+
+        // 多个路由时，取第一个非unknown的ip
+        final String[] arr = ip.split(",");
+        for (final String str : arr) {
+            if (!"unknown".equalsIgnoreCase(str)) {
+                ip = str;
+                break;
+            }
+        }
+        return ip;
+    }
+    
+    /**
+     * 获得请求类型 传统还是ajax  
+     * @param request
+     * @return
+     */
+    public static String getRequestType(HttpServletRequest request) {
+    	String type =request.getHeader("X-Requested-With");
+    	if("XMLHttpRequest".equalsIgnoreCase(type)) {
+    		return "ajax";
+    	}
+        return "normal";
     }
 	
 }

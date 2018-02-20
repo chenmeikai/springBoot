@@ -25,12 +25,12 @@ public class HelloWorldController {
 	private RedisUtils redisUtils;
 	
 	@RequestMapping("/hello")
-	public String helloWorld() {
+	public City helloWorld() {
 		
 		
-	 cityService.getCityById(1);
+	City city = cityService.getCityById(1);
 		
-		return "hello world";
+		return city;
 	}
 	
 	@RequestMapping("/hello2")
