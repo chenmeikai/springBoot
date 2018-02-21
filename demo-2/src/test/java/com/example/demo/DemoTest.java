@@ -6,11 +6,8 @@
  */
 package com.example.demo;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.*;
-
 import javax.annotation.Resource;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

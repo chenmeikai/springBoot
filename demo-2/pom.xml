@@ -67,17 +67,14 @@
             <groupId>org.springframework.boot</groupId>  
             <artifactId>spring-boot-starter-activemq</artifactId>  
         </dependency> 
-        <!-- <dependency>  
-            <groupId>org.apache.activemq</groupId>  
-            <artifactId>activemq-pool</artifactId>  
-        </dependency> -->
 		
 		<!-- httpclient -->
 		<dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
-
+        
+        <!-- 热部署 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -105,12 +102,19 @@
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.1.2</version>
         </dependency>
+        <!-- Mybatis Generator -->
+	    <dependency>
+	        <groupId>org.mybatis.generator</groupId>
+	        <artifactId>mybatis-generator-core</artifactId>
+	        <version>1.3.5</version>
+	    </dependency>
+	    <!-- test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		 <!--quartz-->
+		<!--quartz-->
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
@@ -125,6 +129,7 @@
 	</dependencies>
 
 	<build>
+	    <!-- 项目名 -->
 		<finalName>springBoot</finalName>
 		<plugins>
 			<plugin>
@@ -142,8 +147,7 @@
 				<skip>true</skip>
 				</configuration>
 			</plugin>
-			
-		</plugins>
+      </plugins>
 	</build>
 
 
