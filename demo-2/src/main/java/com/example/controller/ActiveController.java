@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.example.activeMq.Sender;
 
 /**
- * @author Admin
+ * @author admin
  *
  */
 @Controller

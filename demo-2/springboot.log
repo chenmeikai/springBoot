@@ -25080,3 +25080,332 @@ Caused by: java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.
 2018-02-21 11:07:08.485  INFO 7144 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
 2018-02-21 11:07:08.485  INFO 7144 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
 2018-02-21 11:07:08.485  INFO 7144 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-22 16:06:31.587  INFO 6180 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on 9T4OR5CVMHLAZ8N with PID 6180 (F:\workspace\springboot\demo-2\target\classes started by Administrator in F:\workspace\springboot\demo-2)
+2018-02-22 16:06:31.597 DEBUG 6180 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-22 16:06:31.597  INFO 6180 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-22 16:06:32.558  INFO 6180 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21b58342: startup date [Thu Feb 22 16:06:32 CST 2018]; root of context hierarchy
+2018-02-22 16:06:34.298  INFO 6180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-22 16:06:34.990  INFO 6180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3abe2e0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:06:35.740  INFO 6180 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-22 16:06:35.788  INFO 6180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-22 16:06:35.810  INFO 6180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-22 16:06:35.929  INFO 6180 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-22 16:06:35.929  INFO 6180 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3386 ms
+2018-02-22 16:06:36.175  INFO 6180 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-22 16:06:36.176  INFO 6180 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-22 16:06:36.180  INFO 6180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-22 16:06:36.181  INFO 6180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-22 16:06:36.181  INFO 6180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-22 16:06:36.181  INFO 6180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-22 16:06:36.181  INFO 6180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-22 16:06:36.649  INFO 6180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-22 16:06:36.660  INFO 6180 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-22 16:06:36.672  INFO 6180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-22 16:06:36.673  INFO 6180 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-22 16:06:36.674  INFO 6180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-22 16:06:36.674  INFO 6180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-22 16:06:36.674  INFO 6180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-22 16:06:36.675  INFO 6180 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1d6fb198
+2018-02-22 16:06:39.362  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21b58342: startup date [Thu Feb 22 16:06:32 CST 2018]; root of context hierarchy
+2018-02-22 16:06:39.450  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/active],methods=[GET]}" onto public java.lang.String com.example.controller.ActiveController.chufabaojing(java.lang.String)
+2018-02-22 16:06:39.451  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Async]}" onto public java.lang.String com.example.controller.AsyncController.test() throws java.lang.InterruptedException,java.util.concurrent.ExecutionException
+2018-02-22 16:06:39.452  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bootstrap1]}" onto public java.lang.String com.example.controller.BootstrapController.test()
+2018-02-22 16:06:39.453  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/file],methods=[GET]}" onto public java.lang.String com.example.controller.FileController.file(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:06:39.453  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload],methods=[POST]}" onto public java.lang.String com.example.controller.FileController.upload(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:06:39.453  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/generate]}" onto public java.lang.String com.example.controller.GeneratorController.test()
+2018-02-22 16:06:39.454  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-22 16:06:39.454  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public com.example.model.City com.example.controller.HelloWorldController.helloWorld()
+2018-02-22 16:06:39.455  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-22 16:06:39.455  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-22 16:06:39.456  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-22 16:06:39.456  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logTest]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.controller.LogController.test(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.Integer)
+2018-02-22 16:06:39.457  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/list]}" onto public java.lang.String com.example.controller.TemplateController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:06:39.458  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloHtml]}" onto public java.lang.String com.example.controller.TemplateController.helloHtml(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:06:39.460  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:06:39.460  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:06:39.460  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock2]}" onto public java.lang.String com.example.controller.TransationController.processLock2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:06:39.460  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process2]}" onto public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:06:39.461  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process3]}" onto public java.lang.String com.example.controller.TransationController.process3(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:06:39.462  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-22 16:06:39.463  INFO 6180 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:06:39.495  INFO 6180 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:06:39.495  INFO 6180 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:06:39.530  INFO 6180 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:06:40.659  INFO 6180 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-22 16:06:40.869  INFO 6180 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-22 16:06:40.871  INFO 6180 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-22 16:06:40.876  INFO 6180 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-22 16:06:40.921  INFO 6180 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-22 16:06:40.921  INFO 6180 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-22 16:06:40.921  INFO 6180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-22 16:06:43.318  INFO 6180 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-22 16:06:43.341  INFO 6180 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 13.356 seconds (JVM running for 17.254)
+2018-02-22 16:06:47.149  INFO 6180 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:06:48.148  INFO 6180 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:06:48.172 ERROR 6180 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'mytest.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:06:49.151 ERROR 6180 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'out.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:06:53.766  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-22 16:06:53.766  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@21b58342: startup date [Thu Feb 22 16:06:32 CST 2018]; root of context hierarchy
+2018-02-22 16:06:53.777  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-22 16:06:53.801  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:06:54.177 ERROR 6180 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'mytest.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:06:55.147 ERROR 6180 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'out.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:06:55.579  INFO 6180 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-22 16:06:59.872  INFO 6180 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-22 16:07:00.161  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-22 16:07:00.161  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-22 16:07:00.164  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-22 16:07:00.164  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-22 16:07:00.164  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:07:00.164  INFO 6180 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-22 16:09:44.958  INFO 256 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on 9T4OR5CVMHLAZ8N with PID 256 (F:\workspace\springboot\demo-2\target\classes started by Administrator in F:\workspace\springboot\demo-2)
+2018-02-22 16:09:44.959 DEBUG 256 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-22 16:09:44.959  INFO 256 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-22 16:09:45.151  INFO 256 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3940083c: startup date [Thu Feb 22 16:09:45 CST 2018]; root of context hierarchy
+2018-02-22 16:09:45.709  INFO 256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-22 16:09:46.074  INFO 256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$72ace0f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:09:46.376  INFO 256 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-22 16:09:46.384  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-22 16:09:46.385  INFO 256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-22 16:09:46.460  INFO 256 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-22 16:09:46.460  INFO 256 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1312 ms
+2018-02-22 16:09:46.625  INFO 256 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-22 16:09:46.626  INFO 256 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-22 16:09:46.629  INFO 256 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-22 16:09:46.630  INFO 256 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-22 16:09:46.630  INFO 256 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-22 16:09:46.631  INFO 256 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-22 16:09:46.631  INFO 256 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-22 16:09:46.766  INFO 256 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-22 16:09:46.775  INFO 256 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-22 16:09:46.776  INFO 256 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-22 16:09:46.777  INFO 256 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-22 16:09:46.778  INFO 256 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-22 16:09:46.778  INFO 256 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-22 16:09:46.778  INFO 256 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-22 16:09:46.780  INFO 256 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1098930f
+2018-02-22 16:09:48.252  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3940083c: startup date [Thu Feb 22 16:09:45 CST 2018]; root of context hierarchy
+2018-02-22 16:09:48.311  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/active],methods=[GET]}" onto public java.lang.String com.example.controller.ActiveController.chufabaojing(java.lang.String)
+2018-02-22 16:09:48.312  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Async]}" onto public java.lang.String com.example.controller.AsyncController.test() throws java.lang.InterruptedException,java.util.concurrent.ExecutionException
+2018-02-22 16:09:48.312  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bootstrap1]}" onto public java.lang.String com.example.controller.BootstrapController.test()
+2018-02-22 16:09:48.313  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/file],methods=[GET]}" onto public java.lang.String com.example.controller.FileController.file(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:09:48.313  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload],methods=[POST]}" onto public java.lang.String com.example.controller.FileController.upload(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:09:48.313  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/generate]}" onto public java.lang.String com.example.controller.GeneratorController.test()
+2018-02-22 16:09:48.314  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-22 16:09:48.314  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public com.example.model.City com.example.controller.HelloWorldController.helloWorld()
+2018-02-22 16:09:48.314  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-22 16:09:48.314  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-22 16:09:48.314  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-22 16:09:48.315  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logTest]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.controller.LogController.test(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.Integer)
+2018-02-22 16:09:48.315  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/list]}" onto public java.lang.String com.example.controller.TemplateController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:09:48.316  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloHtml]}" onto public java.lang.String com.example.controller.TemplateController.helloHtml(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:09:48.317  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:09:48.319  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:09:48.319  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock2]}" onto public java.lang.String com.example.controller.TransationController.processLock2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:09:48.320  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process2]}" onto public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:09:48.320  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process3]}" onto public java.lang.String com.example.controller.TransationController.process3(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:09:48.321  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-22 16:09:48.322  INFO 256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:09:48.347  INFO 256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:09:48.347  INFO 256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:09:48.381  INFO 256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:09:48.984  INFO 256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-22 16:09:49.031  INFO 256 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-22 16:09:49.033  INFO 256 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-22 16:09:49.038  INFO 256 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-22 16:09:49.052  INFO 256 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-22 16:09:49.053  INFO 256 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-22 16:09:49.053  INFO 256 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-22 16:09:51.248  INFO 256 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-22 16:09:51.253  INFO 256 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 6.529 seconds (JVM running for 7.009)
+2018-02-22 16:09:55.200  INFO 256 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:09:55.360  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-22 16:09:55.360  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3940083c: startup date [Thu Feb 22 16:09:45 CST 2018]; root of context hierarchy
+2018-02-22 16:09:55.363  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-22 16:09:55.364  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:09:56.207 ERROR 256 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'mytest.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:09:56.207  INFO 256 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:10:01.210  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-22 16:10:01.210  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-22 16:10:01.212  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-22 16:10:01.213  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-22 16:10:01.213  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:10:01.213  INFO 256 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-22 16:10:20.172  INFO 1856 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on 9T4OR5CVMHLAZ8N with PID 1856 (F:\workspace\springboot\demo-2\target\classes started by Administrator in F:\workspace\springboot\demo-2)
+2018-02-22 16:10:20.172 DEBUG 1856 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-22 16:10:20.173  INFO 1856 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-22 16:10:20.333  INFO 1856 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18b3e3d7: startup date [Thu Feb 22 16:10:20 CST 2018]; root of context hierarchy
+2018-02-22 16:10:20.900  INFO 1856 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-22 16:10:21.244  INFO 1856 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dd34b6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:10:21.601  INFO 1856 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-22 16:10:21.609  INFO 1856 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-22 16:10:21.610  INFO 1856 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-22 16:10:21.671  INFO 1856 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-22 16:10:21.671  INFO 1856 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1342 ms
+2018-02-22 16:10:21.828  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-22 16:10:21.830  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-22 16:10:21.834  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-22 16:10:21.834  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-22 16:10:21.834  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-22 16:10:21.835  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-22 16:10:21.835  INFO 1856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-22 16:10:21.959  INFO 1856 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-22 16:10:21.969  INFO 1856 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-22 16:10:21.970  INFO 1856 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-22 16:10:21.971  INFO 1856 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-22 16:10:21.971  INFO 1856 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-22 16:10:21.971  INFO 1856 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-22 16:10:21.971  INFO 1856 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-22 16:10:21.972  INFO 1856 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1a23c1ca
+2018-02-22 16:10:22.804  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18b3e3d7: startup date [Thu Feb 22 16:10:20 CST 2018]; root of context hierarchy
+2018-02-22 16:10:22.846  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/active],methods=[GET]}" onto public java.lang.String com.example.controller.ActiveController.chufabaojing(java.lang.String)
+2018-02-22 16:10:22.847  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Async]}" onto public java.lang.String com.example.controller.AsyncController.test() throws java.lang.InterruptedException,java.util.concurrent.ExecutionException
+2018-02-22 16:10:22.848  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bootstrap1]}" onto public java.lang.String com.example.controller.BootstrapController.test()
+2018-02-22 16:10:22.848  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/file],methods=[GET]}" onto public java.lang.String com.example.controller.FileController.file(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:10:22.848  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload],methods=[POST]}" onto public java.lang.String com.example.controller.FileController.upload(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:10:22.849  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/generate]}" onto public java.lang.String com.example.controller.GeneratorController.test()
+2018-02-22 16:10:22.849  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-22 16:10:22.849  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public com.example.model.City com.example.controller.HelloWorldController.helloWorld()
+2018-02-22 16:10:22.849  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-22 16:10:22.850  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-22 16:10:22.851  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-22 16:10:22.852  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logTest]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.controller.LogController.test(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.Integer)
+2018-02-22 16:10:22.852  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/list]}" onto public java.lang.String com.example.controller.TemplateController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:10:22.853  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloHtml]}" onto public java.lang.String com.example.controller.TemplateController.helloHtml(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:10:22.854  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:10:22.855  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:10:22.855  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock2]}" onto public java.lang.String com.example.controller.TransationController.processLock2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:10:22.855  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process2]}" onto public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:10:22.855  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process3]}" onto public java.lang.String com.example.controller.TransationController.process3(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:10:22.857  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-22 16:10:22.858  INFO 1856 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:10:22.883  INFO 1856 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:10:22.884  INFO 1856 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:10:22.915  INFO 1856 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:10:23.461  INFO 1856 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-22 16:10:23.510  INFO 1856 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-22 16:10:23.511  INFO 1856 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-22 16:10:23.519  INFO 1856 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-22 16:10:23.538  INFO 1856 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-22 16:10:23.538  INFO 1856 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-22 16:10:23.539  INFO 1856 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-22 16:10:25.712  INFO 1856 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-22 16:10:25.717  INFO 1856 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 5.771 seconds (JVM running for 6.24)
+2018-02-22 16:10:29.323  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-22 16:10:29.323  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18b3e3d7: startup date [Thu Feb 22 16:10:20 CST 2018]; root of context hierarchy
+2018-02-22 16:10:29.325  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-22 16:10:29.326  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:10:29.327  INFO 1856 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:10:29.327  INFO 1856 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:10:29.329  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-22 16:10:29.329  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-22 16:10:29.330  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-22 16:10:29.330  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-22 16:10:29.331  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:10:29.331  INFO 1856 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-02-22 16:18:37.321  INFO 5976 --- [restartedMain] com.example.run.Demo2Application         : Starting Demo2Application on 9T4OR5CVMHLAZ8N with PID 5976 (F:\workspace\springboot\demo-2\target\classes started by Administrator in F:\workspace\springboot\demo-2)
+2018-02-22 16:18:37.344 DEBUG 5976 --- [restartedMain] com.example.run.Demo2Application         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-22 16:18:37.345  INFO 5976 --- [restartedMain] com.example.run.Demo2Application         : The following profiles are active: dev
+2018-02-22 16:18:37.569  INFO 5976 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73cdeb06: startup date [Thu Feb 22 16:18:37 CST 2018]; root of context hierarchy
+2018-02-22 16:18:38.243  INFO 5976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-02-22 16:18:38.581  INFO 5976 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ba12aad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:18:38.900  INFO 5976 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 7070 (http)
+2018-02-22 16:18:38.908  INFO 5976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-22 16:18:38.909  INFO 5976 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-22 16:18:38.970  INFO 5976 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-22 16:18:38.970  INFO 5976 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1403 ms
+2018-02-22 16:18:39.131  INFO 5976 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-02-22 16:18:39.132  INFO 5976 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-22 16:18:39.135  INFO 5976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-22 16:18:39.136  INFO 5976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-22 16:18:39.136  INFO 5976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-22 16:18:39.136  INFO 5976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-22 16:18:39.136  INFO 5976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-02-22 16:18:39.277  INFO 5976 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-02-22 16:18:39.285  INFO 5976 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-02-22 16:18:39.286  INFO 5976 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2018-02-22 16:18:39.287  INFO 5976 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-02-22 16:18:39.289  INFO 5976 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-02-22 16:18:39.289  INFO 5976 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-02-22 16:18:39.289  INFO 5976 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2018-02-22 16:18:39.291  INFO 5976 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@343f4568
+2018-02-22 16:18:40.045  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73cdeb06: startup date [Thu Feb 22 16:18:37 CST 2018]; root of context hierarchy
+2018-02-22 16:18:40.086  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/active],methods=[GET]}" onto public java.lang.String com.example.controller.ActiveController.chufabaojing(java.lang.String)
+2018-02-22 16:18:40.087  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Async]}" onto public java.lang.String com.example.controller.AsyncController.test() throws java.lang.InterruptedException,java.util.concurrent.ExecutionException
+2018-02-22 16:18:40.087  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/bootstrap1]}" onto public java.lang.String com.example.controller.BootstrapController.test()
+2018-02-22 16:18:40.089  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/file],methods=[GET]}" onto public java.lang.String com.example.controller.FileController.file(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:18:40.089  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload],methods=[POST]}" onto public java.lang.String com.example.controller.FileController.upload(javax.servlet.http.HttpServletRequest,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-02-22 16:18:40.089  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/generate]}" onto public java.lang.String com.example.controller.GeneratorController.test()
+2018-02-22 16:18:40.090  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/redis]}" onto public java.lang.String com.example.controller.HelloWorldController.redis()
+2018-02-22 16:18:40.090  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public com.example.model.City com.example.controller.HelloWorldController.helloWorld()
+2018-02-22 16:18:40.090  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.lang.String com.example.controller.HelloWorldController.helloWorld2()
+2018-02-22 16:18:40.091  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest],methods=[POST]}" onto public java.lang.String com.example.controller.HttpClientController.test(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2018-02-22 16:18:40.091  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postTest2],methods=[GET]}" onto public java.util.Map com.example.controller.HttpClientController.test2(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String) throws java.io.IOException
+2018-02-22 16:18:40.092  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logTest]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.controller.LogController.test(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.Integer)
+2018-02-22 16:18:40.093  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/list]}" onto public java.lang.String com.example.controller.TemplateController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:18:40.093  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloHtml]}" onto public java.lang.String com.example.controller.TemplateController.helloHtml(java.util.Map<java.lang.String, java.lang.Object>)
+2018-02-22 16:18:40.095  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process]}" onto public java.lang.String com.example.controller.TransationController.process(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:18:40.095  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock]}" onto public java.lang.String com.example.controller.TransationController.processLock(java.lang.Integer,java.lang.String) throws java.lang.Exception
+2018-02-22 16:18:40.095  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/processLock2]}" onto public java.lang.String com.example.controller.TransationController.processLock2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:18:40.096  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process2]}" onto public java.lang.String com.example.controller.TransationController.process2(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:18:40.096  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/process3]}" onto public java.lang.String com.example.controller.TransationController.process3(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-02-22 16:18:40.098  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-22 16:18:40.098  INFO 5976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:18:40.131  INFO 5976 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:18:40.131  INFO 5976 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:18:40.196  INFO 5976 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:18:40.741  INFO 5976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-22 16:18:40.809  INFO 5976 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-22 16:18:40.810  INFO 5976 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-02-22 16:18:40.817  INFO 5976 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-02-22 16:18:40.831  INFO 5976 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-02-22 16:18:40.831  INFO 5976 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-02-22 16:18:40.831  INFO 5976 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-02-22 16:18:43.023  INFO 5976 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 7070 (http)
+2018-02-22 16:18:43.027  INFO 5976 --- [restartedMain] com.example.run.Demo2Application         : Started Demo2Application in 5.944 seconds (JVM running for 6.428)
+2018-02-22 16:18:46.982  INFO 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:18:47.983  INFO 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : JMS message listener invoker needs to establish shared Connection
+2018-02-22 16:18:47.985 ERROR 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'mytest.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:18:48.984 ERROR 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'out.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:18:53.987 ERROR 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'mytest.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:18:54.987 ERROR 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'out.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:18:59.998 ERROR 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'mytest.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:19:00.505  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-22 16:19:00.505  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73cdeb06: startup date [Thu Feb 22 16:18:37 CST 2018]; root of context hierarchy
+2018-02-22 16:19:00.511  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-02-22 16:19:00.512  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:19:00.987 ERROR 5976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'out.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-02-22 16:19:05.988  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-22 16:19:05.988  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-22 16:19:05.989  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-02-22 16:19:05.989  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-02-22 16:19:05.989  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-02-22 16:19:05.990  INFO 5976 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
