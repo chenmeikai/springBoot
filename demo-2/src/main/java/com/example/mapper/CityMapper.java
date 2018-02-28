@@ -13,7 +13,7 @@ import com.example.model.City;
  * @author meikai
  *
  */
-public interface CityMapper {
+public interface CityMapper extends BaseMapper<City> {
 	
 	public City getCityById(@Param("id") Integer id);
 	

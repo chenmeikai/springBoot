@@ -38,7 +38,7 @@ public class HelloWorldController {
 		
 	List<City> citys= cityService.getCitys(1, 3);
 		
-		return "hello world";
+		return citys.get(0).getName();
 	}
 	
 	
