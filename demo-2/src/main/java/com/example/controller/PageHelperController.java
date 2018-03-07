@@ -40,15 +40,16 @@ public class PageHelperController {
 		Map<String,Object> map=new HashMap<>();
 		
 		List<User> users =new ArrayList<>();
-		for(int i=1;i<10;i++) {
+		for(int i=0;i<10;i++) {
 			User user =new User();
+			user.setId((long)i);
 			user.setUserName("美凯"+i);
 			user.setPassword("123456");
 			users.add(user);
 		}
 		map.put("rows", users);
 		Integer count =30;
-		map.put("tatal", count);
+		map.put("total", count);
 		
 		return map; 
 	}
