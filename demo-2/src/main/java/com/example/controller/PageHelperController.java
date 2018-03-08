@@ -43,7 +43,7 @@ public class PageHelperController {
 		for(int i=0;i<10;i++) {
 			User user =new User();
 			user.setId((long)i);
-			user.setUserName("美凯"+i);
+			user.setUserName("远在天边"+i);
 			user.setPassword("123456");
 			users.add(user);
 		}
