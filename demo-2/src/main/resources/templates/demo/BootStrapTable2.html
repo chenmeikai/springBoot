@@ -1,0 +1,244 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"  
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"> 
+ <!--  <head>
+    Required meta tags
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+
+    Bootstrap CSS
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" type="text/css"></link>
+    <link th:href="@{/css/bootstrap-table.css}" rel="stylesheet" type="text/css"></link>
+    dateime
+    <link th:href="@{/css/bootstrap-datetimepicker.css}" rel="stylesheet" type="text/css"></link>
+    js
+    <script th:src="@{/js/jquery-3.1.1.min.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/BootsSrapTable/bootstrap-table.min.js}"></script>
+    <script th:src="@{/js/BootsSrapTable/bootstrap-table-zh-CN.js}"></script>
+    <script th:src="@{/js/datetimepicker/bootstrap-datetimepicker.js}"></script>
+    <script th:src="@{/js/datetimepicker/bootstrap-datetimepicker.zh-CN.js}"></script>
+
+    <title>bootstrap table</title>
+  </head> -->
+  <div id="pageView">
+    <div class="container-fluid" style="margin-top:10px;">   
+      <div class="row">
+	    <div class="col-md-12">
+		   <!--搜索栏-->
+	      <form id="listForm" class="row common-search " action="${pageContext.request.contextPath}/admin/spu/spu/main"  method = "GET">          
+	        <div class="row form-group " style="margin-bottom:0px;"> 
+	          <div class="col-md-2 " style="width:15%;">	   		 
+			    <input type="text" class="form-control reset" placeholder="SPU号" name="spuNo" value=""/>		   
+		      </div>
+		      <div class="col-md-2"  style="width:15%;">		  		 
+			    <input type="text" class="form-control reset" placeholder="SPU名" name="spuName" value=""/>		   
+		      </div>
+		      <div class="row form-group form-inline col-md-8 "> 	       		  
+		        <div class="input-group col-md-3" style="margin-left:15px;" >		   		 
+			      <input type="text" class="form-control  reset" placeholder="销量" name="startSaleAmount" value="" id="oneSaleAmount" />
+			        <span class="input-group-addon" >到</span>
+			      <input type="text" class="form-control  reset" placeholder="销量" name="endSaleAmount" value="" id="twoSaleAmount" />		   
+		       </div>	
+		      <div class="input-group col-md-3" style="margin-left:15px;" >		   		 
+			     <input type="text" class="form-control  reset" placeholder="库存" name="startStocks" value="" id="oneStocks" />
+			       <span class="input-group-addon" >到</span>
+			     <input type="text" class="form-control  reset" placeholder="库存" name="endStocks" value="" id="twoStocks" />		   
+		      </div>
+		      <div class="input-group  col-md-3" style="margin-left:15px;">		   		 
+			     <input type="text" class="form-control datetimepicker reset" placeholder="创建起始" name="startCreateDate" value="" id="oneDate" />
+			      <span class="input-group-addon" >到</span>
+			     <input type="text" class="form-control datetimepicker reset" placeholder="结束时间" name="endCreateDate" value="" id="twoDate" />		   
+		      </div>	   			 		   
+		    </div>	 	   		   			 		   
+		  </div>	
+		   
+		 <div class="row ">	  	  
+		   <div class=" col-md-1">		 
+			  <select  class="form-control reset" name="skuSort">
+			     <option    value = "create_date" >默认排序</option>
+		         <option    value = "sale_amount"   >按销量</option>
+		         <option    value = "stocks"   >按库存</option>		         
+			  </select>
+		   </div>
+		   <div class=" col-md-1">		 
+			  <select  class="form-control reset" name="direction">
+			     <option    value = "DESC" >倒序</option>
+			     <option    value = "ASC" >正序</option>      
+			  </select>
+		   </div>				
+           	<div class="form-group form-inline col-md-2 ">	 
+			  <input id="formSearch" type="button" class="form-control btn btn-default" value="搜索" />
+			  <input id="searchReset" type="button" class="form-control  btn btn-default" value="重置"/>		
+			</div>
+		  </div>	 	 	 
+	   </form>
+		</div>
+	  </div>
+	  
+	  <!--table-->
+	  <div class="row">
+	    <div class="col-md-12">
+	        <table id="showTable">
+          
+            </table>     
+		</div>
+	  </div>
+	  
+    </div>    
+    
+    
+    <!-- 工具容器 -->
+<div id="toolbar" class="btn-group">
+<button id="btn_add" type="button" class="btn btn-default" onclick="addRecord();">
+  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+  <span>新增</span>
+</button>
+<button id="btn_delete" type="button" class="btn btn-default" onclick="batchUpload();">
+  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    <span>批量上传</span>
+</button>
+<button id="btn_edit" type="button" class="btn btn-default" onclick="editRecord();">
+  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+    <span>选择修改</span>
+</button>
+<button id="btn_delete" type="button" class="btn btn-default" onclick="delRecord();">
+  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    <span>选择删除</span>
+</button>
+<div class="btn-group">
+    <button class="btn btn-default dropdown-toggle" aria-label="export type" title="Export data" data-toggle="dropdown" type="button">
+      <i class="glyphicon glyphicon-export icon-share"></i> 导出
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li role="menuitem" data-type="CSV"><a href="javascript:exportRecord('CSV')">CSV</a></li>
+      <li role="menuitem" data-type="WORD"><a href="javascript:exportRecord('WORD')">Word</a></li>
+      <li role="menuitem" data-type="PDF"><a href="javascript:exportRecord('PDF')">PDF</a></li>
+      <li role="menuitem" data-type="EXCEL"><a href="javascript:exportRecord('EXCEL')">Excel</a></li>
+    </ul>
+</div>
+</div>
+
+
+    <script>
+        $(document).ready(function() {
+		
+			//时间组件
+			$('.datetimepicker').datetimepicker({
+					language:  'zh-CN',
+					format: 'yyyy-mm-dd',
+					weekStart: 1,
+					todayBtn:  1,
+					autoclose: 1,
+					todayHighlight: 1,
+					startView: 2, //这里就设置了默认视图
+					minView: 2, //设置最小视图
+					forceParse: 0,
+					
+			  });
+			  
+			  InitMainTable ();
+           
+        });
+		
+		
+		 var $table;
+   //初始化bootstrap-table的内容(注意：如果是服务端分页，返回的结果必须包含total、rows两个参数。漏写或错写都会导致表格无法显示数据。)
+   function InitMainTable (userName) {
+       //记录页面bootstrap-table全局变量$table，方便应用
+       var queryUrl = "http://localhost:7070/getShow"
+       $table = $('#showTable').bootstrapTable({
+    	   locale:'zh-CN',                     //中文支持
+    	   url: queryUrl,                      //请求后台的URL（*）
+           method: 'get',                      //请求方式（*）
+           contentType: "application/x-www-form-urlencoded",
+           toolbar: '#toolbar',                //工具按钮用哪个容器
+           striped: true,                      //是否显示行间隔色
+           cache: false,                       //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
+           pagination: true,                   //是否显示分页（*）
+           paginationShowPageGo: true,          //跳转页(扩展)
+           sortable: true,                     //是否启用排序
+           sortOrder: "asc",                   //排序方式
+           sortName :"userName",
+           sidePagination: "server",           //分页方式：client客户端分页，server服务端分页（*）
+           pageNumber:1,                       //初始化加载第一页，默认第一页
+           pageSize: 10,                       //每页的记录行数（*）
+           pageList: [10, 25, 50, 100],        //可供选择的每页的行数（*）
+           search: false,                       //是否显示表格搜索，此搜索是客户端搜索，不会进服务端，所以，个人感觉意义不大
+           showColumns: false,                  //是否显示所有的列
+           minimumCountColumns: 2,             //最少允许的列数
+           clickToSelect: true,                //是否启用点击选中行
+           /* height: 500, */                        //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
+           uniqueId: "id",                     //每一行的唯一标识，一般为主键列
+           detailView: false,                   //是否显示父子表
+           showColumns: true,                   //是否可选择展示的列
+           showRefresh: true,                   //刷新
+           columns: [{
+               checkbox: true,  
+               visible: true                  //是否显示复选框  
+           }, {
+               field: 'userName',
+               title: '姓名',
+               sortable: true
+           }, {
+               field: 'password',
+               title: '密码',
+               sortable: true
+           }, {
+               field:'id',
+               title: '操作',
+               width: 300,
+               align: 'center',
+               formatter:function(value,row,index){
+                   //通过formatter可以自定义列显示的内容
+                   //value：当前field的值，即id
+                   //row：当前行的数据
+                   var a = '<a href="javascript:viewEntity();" class="btn btn-info btn-xs"><i class="glyphicon glyphicon-book"></i>&nbsp;<span>查看</span></a>'
+                   return a;
+               } 
+           }, ],
+           //得到查询的参数
+           queryParams : queryParams,
+           onLoadSuccess: function () {//加载成功执行的方法
+           },
+           onLoadError: function () {
+               showTips("数据加载失败！");
+           },
+           onDblClickRow: function (row, $element) {//双击行执行事件
+        	  
+           },
+       });
+       
+       //请求服务数据时所传参数
+       function queryParams(params){
+    	 //这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
+           var temp = {   
+        	   pageSize: params.limit,                         //页面大小
+               pageNumber: (params.offset / params.limit) + 1,   //页码
+               sortName:this.sortName,                          //排序名
+               sortOrder:this.sortOrder,                        //排序方式
+               userName:userName      //排序列名  
+           };
+           return temp;
+       }
+   };
+   
+   function deleteByID(id){
+	   //删除行，field:传入的字段，values:数组(存放要删除的字段值)
+	   $('#showTable').bootstrapTable('remove', {field: 'id', values: id});
+   }
+   
+   
+   function editRecord(){
+	   //获得选中行
+	   var data =  $('#showTable').bootstrapTable('getSelections');
+	   //获得记录数
+	   console.log(data.length)
+	   //将第一条记录转化为json
+	    console.log(JSON.stringify(data[0]))
+   }
+		
+    </script>
+</div>
+</html>

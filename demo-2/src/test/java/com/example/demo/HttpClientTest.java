@@ -59,5 +59,17 @@ public class HttpClientTest {
 		String result =HttpClientUtil.sendGet("http://localhost:7070/postTest2?userName=chenmeikai&password=1234545",3000, 3000);
 		System.out.println(result);
 	}
+	
+	/**
+	 * 重定向
+	 */
+	@Test
+	public void test5() {
+		Map<String,String> data =new HashMap<>();
+		data.put("userName", "zhangsan");
+		data.put("password", "123456");
+		String result =HttpClientUtil.sendKeyValuePost("http://localhost:7070/redirect", data, 3000, 3000);
+		System.out.println(result);
+	}
 
 }

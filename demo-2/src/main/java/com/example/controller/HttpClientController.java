@@ -9,6 +9,7 @@ import java.util.Map;
 
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
@@ -78,5 +79,21 @@ public class HttpClientController {
 		log.info(userName+"-"+password);
 		return data;
 	}
+	
+	
+	@RequestMapping(value="redirect",method=RequestMethod.POST)
+	@ResponseBody
+	public void redirect(HttpServletRequest request,HttpServletResponse response) throws IOException {
+		
+		response.sendRedirect("/redirect2");
+	}
+	
+	
+	@RequestMapping(value="redirect2",method=RequestMethod.GET)
+	@ResponseBody
+	public String redirect2(HttpServletRequest request,String userName,String password) throws IOException {
+		return "success";
+	}
+	
 
 }
