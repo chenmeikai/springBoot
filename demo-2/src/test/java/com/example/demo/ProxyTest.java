@@ -22,7 +22,7 @@ public class ProxyTest {
 	 */
 	public static void main(String[] args) throws Exception {
 		
-		TestProxy proxy =ProxyFactory.getInstance("B");
+		TestProxy proxy =ProxyFactory.getInstance("A");
 		proxy.test();
 
 	}

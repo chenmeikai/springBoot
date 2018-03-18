@@ -44,7 +44,7 @@ public class HttpClientController {
 	@ResponseBody
 	public String test(HttpServletRequest request) throws IOException {
 		//将请求参数转化为字符串
-		String data =RequestUtils.toString(request);
+		String data =RequestUtils.readJson(request);
 		log.info("测试HttpClient post请求"
 				+ Thread.currentThread().getStackTrace()[1].getMethodName());
 		log.info("post请求参数:" + data);
@@ -52,8 +52,6 @@ public class HttpClientController {
 			log.info("数据为空");
 			return "data is null";
 		}
-		JSONObject jsonObject = JSONObject.parseObject(data);
-		String name =jsonObject.getString("userName");
 		return data;
 	}
 	
@@ -64,9 +62,9 @@ public class HttpClientController {
 	 * @return
 	 * @throws IOException
 	 */
-	@RequestMapping(value="postTest2",method=RequestMethod.GET)
+	@RequestMapping(value="postTest2",method=RequestMethod.POST)
 	@ResponseBody
-	public Map test2(HttpServletRequest request,@RequestParam("userName")String userName,String password) throws IOException {
+	public Map test2(HttpServletRequest request) throws IOException {
 		
 		Map<String,Object> data =RequestUtils.toMap(request);
 		log.info("测试HttpClient post请求"
@@ -76,7 +74,6 @@ public class HttpClientController {
 			log.info("数据为空");
 			return   (Map) new HashMap<String,Object>().put("data", "is null");
 		}
-		log.info(userName+"-"+password);
 		return data;
 	}
 	

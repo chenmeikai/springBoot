@@ -10,6 +10,9 @@ public interface TestProxy {
 	
 	public void test();
 	
+	
+	public void updateUser() throws Exception;
+	
 //	public BigDecimal getBalance();
 
 }
