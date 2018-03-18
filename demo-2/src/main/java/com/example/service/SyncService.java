@@ -30,5 +30,11 @@ public interface SyncService {
 	Future<String> eight() ;
 	@Async
 	Future<String> nine() ;
+	
+	
+	@Async
+	void test2();
+	
+	void test3();
 
 }

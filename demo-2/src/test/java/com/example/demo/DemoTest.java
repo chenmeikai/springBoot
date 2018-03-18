@@ -14,7 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 import com.example.model.City;
-import com.example.run.Demo2Application;
+import com.example.run.DemoApplication;
 import com.example.service.CityService;
 
 /**   
@@ -26,7 +26,7 @@ import com.example.service.CityService;
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)  
-@SpringBootTest(classes=Demo2Application.class)// 指定spring-boot的启动类   
+@SpringBootTest(classes=DemoApplication.class)// 指定spring-boot的启动类   
 //@SpringApplicationConfiguration(classes = Application.class)// 1.4.0 前版本  
 public class DemoTest {
 	

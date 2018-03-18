@@ -4,12 +4,11 @@
 package com.example.service.Impl;
 
 import java.util.concurrent.Future;
-
-import org.springframework.scheduling.annotation.Async;
+import java.util.concurrent.TimeUnit;
 import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Service;
-
 import com.example.service.SyncService;
+import com.example.utils.ThreadUtils;
 
 /**
  * @author meikai
@@ -61,4 +60,51 @@ public class SyncServiceImpl implements SyncService {
 	  return new AsyncResult<String>("9");
   }
 
+/* (non-Javadoc)
+ * @see com.example.service.SyncService#test2()
+ */
+@Override
+public void test2() {
+	while(true) {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("异步位置");
+	}
 }
+
+@Override
+public void test3() {
+	
+	System.out.println("开始异步");
+	ThreadUtils.scheduledRun(new Runnable() {
+		@Override
+		public void run() {
+			while(true) {
+				System.out.println("异步中");
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}, 3, TimeUnit.SECONDS);
+	
+	while(true) {
+		System.out.println("原线程");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+}
+
+}
+

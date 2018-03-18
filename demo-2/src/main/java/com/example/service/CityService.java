@@ -14,6 +14,8 @@ import com.example.model.City;
 
 public interface CityService {
 	
+	void test();
+	
 	City getCityById(Integer id);
 	
 	List<City> getCitys(Integer pageNum,Integer pageSize);

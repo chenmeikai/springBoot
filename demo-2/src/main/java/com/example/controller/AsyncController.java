@@ -11,6 +11,7 @@ import javax.annotation.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.service.CityService;
 import com.example.service.SyncService;
 
 /**
@@ -22,6 +23,9 @@ public class AsyncController {
 	
 	@Resource
 	private SyncService syncService;
+	
+	@Resource
+	private CityService cityService;
 	
 	@RequestMapping("Async")
 	public String test() throws InterruptedException, ExecutionException {
@@ -36,6 +40,24 @@ public class AsyncController {
 	Future<String> nine=syncService.nine();
 	String result =one.get()+two.get()+threee.get()+four.get()+five.get()+six.get()+seven.get()+eight.get()+nine.get();
 	return result;
+	}
+	
+	
+	
+	@RequestMapping("Async2")
+	public String Async2() throws InterruptedException, ExecutionException {
+		cityService.test();
+		return "success";
+	}
+	
+	
+	@RequestMapping("Async3")
+	public String ThreadController() {
+		
+		syncService.test3();
+		
+		return "threadUtils";
+		
 	}
 	
 	

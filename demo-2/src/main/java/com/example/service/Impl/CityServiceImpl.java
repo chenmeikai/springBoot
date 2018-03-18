@@ -5,6 +5,8 @@ package com.example.service.Impl;
 
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.example.mapper.CityMapper;
 import com.example.model.City;
 import com.example.service.CityService;
+import com.example.service.SyncService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
@@ -29,6 +32,9 @@ public class CityServiceImpl implements CityService {
 	
 	@Autowired
 	CityMapper cityMapper ;
+	
+	@Resource
+	private SyncService syncService;
 	
 	
 	@Override
@@ -127,6 +133,28 @@ public class CityServiceImpl implements CityService {
 			return "sucess";
 		}
 		return "faile";
+	}
+	
+	@Override
+	public void test() {
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+		System.out.println("4");
+		System.out.println("5");
+		System.out.println("6");
+		System.out.println("7");
+		System.out.println("8");
+		System.out.println("9");
+		syncService.test2();
+		while(true) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			System.out.println("10");
+		}
 	}
 
 }
