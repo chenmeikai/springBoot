@@ -12,9 +12,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableScheduling
 @MapperScan("com.example.mapper")
 @EnableAsync
-public class DemoApplication {
+public class runApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(runApplication.class, args);
 	}
 }

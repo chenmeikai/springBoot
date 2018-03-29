@@ -32,7 +32,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 
- * @Description:httpClient，无连接池 
+ * @Description:httpClient
  * @author: cmk 
  * @date:   2018年3月18日 上午10:55:49
  */
