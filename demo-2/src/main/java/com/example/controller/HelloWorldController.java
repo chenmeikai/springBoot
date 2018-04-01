@@ -21,8 +21,6 @@ public class HelloWorldController {
 	@Resource
 	private CityService cityService;
 	
-	@Resource
-	private RedisUtils redisUtils;
 	
 	@RequestMapping("/hello")
 	public City helloWorld() {
@@ -42,14 +40,5 @@ public class HelloWorldController {
 	}
 	
 	
-	@RequestMapping("/redis")
-	public String redis() {
-		
-		String animal =redisUtils.get("animal");
-		
-		System.out.println(animal);
-		
-		return "hello world";
-	}
 	
 }
