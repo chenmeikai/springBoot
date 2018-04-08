@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@SpringBootApplication(scanBasePackages = {"com.example"})
+@SpringBootApplication(scanBasePackages = {"com"})
 @EnableTransactionManagement
 @EnableScheduling
 @MapperScan("com.**.mapper")
