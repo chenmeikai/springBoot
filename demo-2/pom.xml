@@ -134,7 +134,7 @@
 		<dependency>
 			<groupId>com.inesv</groupId>
 			<artifactId>alarm</artifactId>
-			<version>1.0</version>   
+			<version>3.0</version>    
 		</dependency>
 	</dependencies>
 
