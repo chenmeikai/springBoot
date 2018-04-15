@@ -20,7 +20,7 @@ import com.example.service.CityService;
  */
 
 @Controller
-public class TemplateController {
+public class PageHelperController {
 	
 	@Resource
 	private CityService cityService;
