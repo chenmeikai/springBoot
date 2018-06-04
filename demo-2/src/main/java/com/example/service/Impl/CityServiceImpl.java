@@ -54,9 +54,6 @@ public class CityServiceImpl implements CityService {
 	    PageInfo<City> pageInfo = new PageInfo<City>(entitys);
 		List<City> citys=pageInfo.getList();
 		log.info("容量"+citys.size());
-		log.info("信息");
-		log.warn("警告");
-		log.error("错误");
 		return citys;
 	}
 

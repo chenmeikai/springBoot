@@ -22,7 +22,7 @@ import com.example.activeMq.Sender;
  *
  */
 @Controller
-public class ActiveController {
+public class MQController {
 	
 	@Autowired
     private Sender alarmProducer;

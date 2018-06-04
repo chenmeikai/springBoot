@@ -1,0 +1,72 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"  
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+
+    <!-- Bootstrap CSS -->
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" type="text/css"></link>
+    <link th:href="@{/css/bootstrap-table.css}" rel="stylesheet" type="text/css"></link>
+    <!-- js -->
+    <script th:src="@{/js/jquery-3.1.1.min.js}"></script>
+    <script th:src="@{/js/popper.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/BootsSrapTable/bootstrap-datetimepicker.js}"></script>
+    <script th:src="@{/js/BootsSrapTable/bootstrap-table-zh-CN.js}"></script>
+
+    <title>bootstrap table</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <span>收到的信息是：</span>
+        </div>
+        <div class="col-md-2">
+          <span id="info"></span>
+        </div>
+      </div>  
+    </div>
+    
+  </body>
+  <script type="text/javascript">
+    $().ready(function(){
+    	
+    	 var socket;  
+    	    if(typeof(WebSocket) == "undefined") {  
+    	        console.log("您的浏览器不支持WebSocket");  
+    	    }else{  
+    	        console.log("您的浏览器支持WebSocket");  
+    	            //实现化WebSocket对象，指定要连接的服务器地址与端口  建立连接  
+    	            socket = new WebSocket("ws://localhost:8080/websocket/20");  
+    	            //打开事件  
+    	            socket.onopen = function() {  
+    	                console.log("Socket 已打开");  
+    	                socket.send("这是来自客户端的消息" + location.href + new Date());  
+    	            };  
+    	            //获得消息事件  
+    	            socket.onmessage = function(msg) { 
+    	                console.log(msg.data);  
+    	                //发现消息进入    开始处理前端触发逻辑
+    	            };  
+    	            //关闭事件  
+    	            socket.onclose = function() {  
+    	                console.log("Socket已关闭");  
+    	            };  
+    	            //发生了错误事件  
+    	            socket.onerror = function() {  
+    	                alert("Socket发生了错误");  
+    	                //此时可以尝试刷新页面
+    	            }  
+    	            //离开页面时，关闭socket
+    	            //jquery1.8中已经被废弃，3.0中已经移除
+    	            // $(window).unload(function(){  
+    	            //     socket.close();  
+    	            //});  
+    	    }
+   
+    });	
+  </script>
+</html>

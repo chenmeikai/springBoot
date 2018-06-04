@@ -25,6 +25,11 @@
 	</properties>
 
 	<dependencies>
+	     <!-- websocket -->
+	    <dependency>  
+           <groupId>org.springframework.boot</groupId>  
+           <artifactId>spring-boot-starter-websocket</artifactId>  
+       </dependency> 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
@@ -131,11 +136,6 @@
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 		<!-- alarm -->
-		<dependency>
-			<groupId>com.inesv</groupId>
-			<artifactId>alarm</artifactId>
-			<version>3.0</version>    
-		</dependency>
 	</dependencies>
 
 	<build>
